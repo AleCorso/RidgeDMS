@@ -1,0 +1,2128 @@
+{
+  "schema": 1,
+  "results": {
+    "type": "dict",
+    "items": [
+      [
+        "map",
+        {
+          "type": "dict",
+          "items": [
+            [
+              "feasible",
+              {
+                "type": "array",
+                "key": "array_0000",
+                "shape": [
+                  51,
+                  51
+                ],
+                "dtype": "bool"
+              }
+            ],
+            [
+              "preparation_status",
+              {
+                "type": "array",
+                "key": "array_0001",
+                "shape": [
+                  51,
+                  51
+                ],
+                "dtype": "<U12"
+              }
+            ],
+            [
+              "reason",
+              {
+                "type": "array",
+                "key": "array_0002",
+                "shape": [
+                  51,
+                  51
+                ],
+                "dtype": "<U1"
+              }
+            ],
+            [
+              "status",
+              {
+                "type": "array",
+                "key": "array_0003",
+                "shape": [
+                  51,
+                  51
+                ],
+                "dtype": "<U12"
+              }
+            ],
+            [
+              "ridge",
+              {
+                "type": "array",
+                "key": "array_0004",
+                "shape": [
+                  51,
+                  51
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "risk",
+              {
+                "type": "array",
+                "key": "array_0005",
+                "shape": [
+                  51,
+                  51
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "kappa",
+              {
+                "type": "array",
+                "key": "array_0006",
+                "shape": [
+                  51,
+                  51
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "zero_slope",
+              {
+                "type": "array",
+                "key": "array_0007",
+                "shape": [
+                  51,
+                  51
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "r_infinity",
+              {
+                "type": "array",
+                "key": "array_0008",
+                "shape": [
+                  51,
+                  51
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "sigma2",
+              {
+                "type": "array",
+                "key": "array_0009",
+                "shape": [
+                  51,
+                  51
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "raw_s",
+              {
+                "type": "array",
+                "key": "array_0010",
+                "shape": [
+                  51,
+                  51
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "phi_train",
+              {
+                "type": "array",
+                "key": "array_0011",
+                "shape": [
+                  51,
+                  51
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "phi_test",
+              {
+                "type": "array",
+                "key": "array_0012",
+                "shape": [
+                  51,
+                  51
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "population_mean_train",
+              {
+                "type": "array",
+                "key": "array_0013",
+                "shape": [
+                  51,
+                  51
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "population_mean_test",
+              {
+                "type": "array",
+                "key": "array_0014",
+                "shape": [
+                  51,
+                  51
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "population_mean_shift",
+              {
+                "type": "array",
+                "key": "array_0015",
+                "shape": [
+                  51,
+                  51
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "test_variance",
+              {
+                "type": "array",
+                "key": "array_0016",
+                "shape": [
+                  51,
+                  51
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "mean_values",
+              {
+                "type": "array",
+                "key": "array_0017",
+                "shape": [
+                  51
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "r_values",
+              {
+                "type": "array",
+                "key": "array_0018",
+                "shape": [
+                  51
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "metadata",
+              {
+                "type": "dict",
+                "items": [
+                  [
+                    "base",
+                    {
+                      "type": "dict",
+                      "items": [
+                        [
+                          "q",
+                          20
+                        ],
+                        [
+                          "sigma",
+                          1.0
+                        ],
+                        [
+                          "G2",
+                          100.0
+                        ],
+                        [
+                          "f",
+                          0.2
+                        ],
+                        [
+                          "ftilde",
+                          0.2
+                        ],
+                        [
+                          "eta",
+                          0.2
+                        ],
+                        [
+                          "F",
+                          0.4
+                        ],
+                        [
+                          "FTest",
+                          0.4
+                        ],
+                        [
+                          "Fneq",
+                          0.2
+                        ],
+                        [
+                          "m",
+                          0.0
+                        ],
+                        [
+                          "mneq",
+                          0.0
+                        ],
+                        [
+                          "mneqtilde",
+                          0.0
+                        ],
+                        [
+                          "Cneq",
+                          null
+                        ],
+                        [
+                          "rhoneq",
+                          0.0
+                        ]
+                      ]
+                    }
+                  ],
+                  [
+                    "mean_values",
+                    {
+                      "type": "list",
+                      "items": [
+                        0.0,
+                        0.013000000000000001,
+                        0.026000000000000002,
+                        0.03900000000000001,
+                        0.052000000000000005,
+                        0.065,
+                        0.07800000000000001,
+                        0.09100000000000001,
+                        0.10400000000000001,
+                        0.117,
+                        0.13,
+                        0.14300000000000002,
+                        0.15600000000000003,
+                        0.169,
+                        0.18200000000000002,
+                        0.195,
+                        0.20800000000000002,
+                        0.22100000000000003,
+                        0.234,
+                        0.24700000000000003,
+                        0.26,
+                        0.273,
+                        0.28600000000000003,
+                        0.29900000000000004,
+                        0.31200000000000006,
+                        0.325,
+                        0.338,
+                        0.35100000000000003,
+                        0.36400000000000005,
+                        0.37700000000000006,
+                        0.39,
+                        0.403,
+                        0.41600000000000004,
+                        0.42900000000000005,
+                        0.44200000000000006,
+                        0.455,
+                        0.468,
+                        0.48100000000000004,
+                        0.49400000000000005,
+                        0.507,
+                        0.52,
+                        0.533,
+                        0.546,
+                        0.559,
+                        0.5720000000000001,
+                        0.5850000000000001,
+                        0.5980000000000001,
+                        0.6110000000000001,
+                        0.6240000000000001,
+                        0.637,
+                        0.65
+                      ]
+                    }
+                  ],
+                  [
+                    "mean_convention",
+                    "normalized"
+                  ],
+                  [
+                    "reference_L",
+                    100
+                  ],
+                  [
+                    "stage",
+                    "map"
+                  ],
+                  [
+                    "r_values",
+                    {
+                      "type": "list",
+                      "items": [
+                        0.1,
+                        0.1096478196143185,
+                        0.12022644346174129,
+                        0.1318256738556407,
+                        0.14454397707459277,
+                        0.15848931924611134,
+                        0.17378008287493754,
+                        0.19054607179632474,
+                        0.20892961308540398,
+                        0.2290867652767773,
+                        0.251188643150958,
+                        0.2754228703338166,
+                        0.3019951720402016,
+                        0.3311311214825911,
+                        0.3630780547701014,
+                        0.3981071705534972,
+                        0.436515832240166,
+                        0.4786300923226384,
+                        0.5248074602497725,
+                        0.5754399373371569,
+                        0.6309573444801934,
+                        0.6918309709189364,
+                        0.7585775750291838,
+                        0.8317637711026711,
+                        0.9120108393559097,
+                        1.0,
+                        1.096478196143185,
+                        1.2022644346174132,
+                        1.3182567385564075,
+                        1.4454397707459272,
+                        1.5848931924611134,
+                        1.7378008287493754,
+                        1.9054607179632472,
+                        2.0892961308540396,
+                        2.2908676527677736,
+                        2.511886431509581,
+                        2.7542287033381663,
+                        3.019951720402016,
+                        3.311311214825911,
+                        3.630780547701014,
+                        3.981071705534973,
+                        4.365158322401661,
+                        4.786300923226383,
+                        5.248074602497725,
+                        5.7543993733715695,
+                        6.309573444801933,
+                        6.918309709189366,
+                        7.58577575029184,
+                        8.317637711026709,
+                        9.120108393559097,
+                        10.0
+                      ]
+                    }
+                  ],
+                  [
+                    "search",
+                    {
+                      "type": "dict",
+                      "items": [
+                        [
+                          "method",
+                          "nonnegative"
+                        ],
+                        [
+                          "lambda_max",
+                          1000.0
+                        ],
+                        [
+                          "n_grid",
+                          641
+                        ]
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              "row_identities",
+              {
+                "type": "list",
+                "items": [
+                  "a6135f71a3eb0a421030fb67b44440e8dd043920c2374be3fae0276b17fb09b9:df82044aed4d0a3a49471e88535521deb323c4357631eb8b64a6bf15a400cbd9",
+                  "d737c0f10b2e0054075c35313766bc28601a7e236c3f5a3d29c84e96b60be79b:b59a349019794f90dfed02c55ab0cdbcbbd3c3de423ce29d02851c142a350332",
+                  "d3c5b236993bd7c0f07d799e4a39531496a696a24d938367bea12884164932b2:74a86c4667c39c81c70cfbd4b64bb8ad4bf914376e14f37d31f114f10e037d74",
+                  "9e5bb516c79265e2852fd7853c5489d009ddfb47915a8d6a1b71d7a02ba532a3:f816c68ef5b417d54f294096fd04dea9999b63c197348bbc53412a139f2d0eba",
+                  "8139754ff097edef0ef2089814ec22c15e79e50c1dc71e835f571c4d4cd1f7ce:e4c7be443028aad87f99ccdcc38e284392b6c6c28beb26d6e6760dda5c6a591c",
+                  "eac164599babeeedb6d61de8cc820c05e1b6419e16cebf20821d30cfe18a354a:f5128094bcdf36922411d24bb668be2f934b80efa2254aa557979b77a1e3d6fa",
+                  "e70af8aa2872e850c38b00523f0b92f82dbb626185ffdfcd845c2563122713a8:0bc7279db570043955f503c5c5b5846f73ebd03c7753e2fadef26d25d52af969",
+                  "7a54abe2cbcd269c4bdde88b105edf51c4fc0236a898d61d72604d00e3efa719:43cad9a2368415b4f1c9c7a11cc177f09b08a9e8d34a406af9b341844bbc5be7",
+                  "0e5108f00384fafa00bf363a46a2b0d99c0cd228d68245dccc9efc85f5f58ff5:0fa63d8d611685fd05f4cea829d89599ad1d524467174dddf1c1914f2f80fc19",
+                  "45e90b9aad1c69ed6165c19d1efd7c8ebc76465b32947a74618dcc4d4edca261:5e50ddffcaa72c4723e4331bf73fc8b96690dfe0fec20549afe05340fe25c348",
+                  "d78336ed69d8f2f3c5f1abeb79b1cbf6df772a349d88ec0ba836a6d29c9626c0:9e20e6360fa24289cb1ad91ba4444b79533dfad148906cc87230e7875b211778",
+                  "9bac784a978b759f58e7aff057413d2707e71d4f6954ab67584e713622f71ae1:44a75e92d4d73e6f9e9de153dde18c90539cecdf21403882c337646ae466113c",
+                  "16852e1de88ff2ca16ab3d4d5249e749428e68b098c41841dbac76c342d35ade:50780000ef85dde664097bf367c610e4221b7e3ca592ba8caffe6f07bc1f7105",
+                  "09ccd026fe5c1b2660ae328d73624b1b545327bb7452f474d3109df31c746a80:e1191152beeb74a47f6a73bf737def57e0327c76296b6ea93d6a5b05676dd2ed",
+                  "2b7ec1ddeebf304777adfb122ae6ef4a1b8715c4f263ba5f4568280ff9b30a61:f1bf7260e7c735a58d001e090e4b1328048f1bd49bfdbf345395f17b4038ca24",
+                  "1c370baebbbea31593d0f26c10726b8e0b0a0e0c8a4aeddfcd576a3efd6c3578:4820df0da6f423c15e8ee74271cfdde034dcc03bd969a90b13937582c9ec8ed0",
+                  "05fdf5771f335556446a55284f4bbe6f65a829310758ba374bc34ba0b0656869:8af16a5f13de2be9af583ef9baf6502146f7626a32039cf89fb756baf8ca552b",
+                  "56091615d6e7c3299c7901b906e5b513ec95c9e2360f31d6895a46d5a5d19ddd:a4fca58c7c78cda1bc79f23beaa49fdd82320e3f8051e71f671759bc595058af",
+                  "86f16f34c79e583c4b097243217b9229c63d5c5b3920e9e58bd57cb8608475ef:8d65375e432436f0004371e0f4d78f8a054bb15223495258a6750bf72bd456de",
+                  "de7ee61cf2aa27faaf06db52d9d4947e4d52ea7c48d3bce258366765990ade15:1b37a99a5e703c6bfa3cf8c200b2164c4e3f34310cf0b35c79a99911683437e6",
+                  "917bc4cc03e214b3dbdb3738ea7051eeff3d3d118f978de02de7cd52790ac325:1e5a84bcb9b6f6eb6c5e80529d65e7b547db0ff440bd635bff15ce13e4337a05",
+                  "1f2e27690751343386fc1d60f84a534bed29e7a4318b8777e4615c62b53abf82:b6b8cc00228af5b801264ddcba9a11ab0803a7d433c46eba6950f0be37523088",
+                  "e4339f4f95603a4cafcafa3aaf1ccdb8263d96db2b6ea4046ecbb60376283bb0:47e2dab827e279fce339b23f068cea3c2607ac5145a2b9b9ed23d874c3191e9f",
+                  "17c5fbb1f8fc2e6c1ccf95ffe1dc5b3c2174b33cbba3138501bbaae22edff6f6:a850a571808bed40e594b2d6696e5b216c75cba96a5b8f70a726939844c31fea",
+                  "ca6aece6f637e3b143f0ce59a4c1ca8748f73e8937c0daf2798d436cdb98ad98:ab3a2b5cbbb826c02e09b191cb64a8b7ed474f13f3c3e1b0eacb3ae6db1aa74e",
+                  "d86a3cdb8ec62402920e1c3b8cb0c5ce8f2f6747155c617fbec9c988867401d7:1facbe08f755011517c49a72bafa0558136b9f92153eb9a20f5a5209e135cc87",
+                  "bc3ccdbd1eac0de62825bf15ffa0fe1d5ad09bdde56cec110034d9b6ac6b38a3:939fffda6b7451159893a157e0f163202e8e86233d38c3727443d205258c741d",
+                  "3ac00496e08043e8a320a108edddd9576a30b0e6a522ab2a4ec759d72ccf1335:70c8d8062aae602c7bbab44a7084f7639b36971f15dc3a4f68293317b85c6bf7",
+                  "c35cb591421ffdb2b357fdb566d0d7b1996993d0330d47b162fe7fc35361e3b4:fa69d7a80893d051d12ef965357f167cf62082d4311a4a7416b92a20a02b8aec",
+                  "bbc1dbe85e740e2a354813020df114a1ef18d9f722cafe0e81722b5136cc13bf:7546b60011bb9de4b2035b362086cb473e7ccf333d4970800671dea96c41e3ae",
+                  "f6d6b17408ebead03e42fa2ee1f723d1b42087d11a486d7d62f5153f91bba7e6:74b979e0d5697f650cbce12d54ff2e609458b35f4c427f9cfd2ea90a9a55c7f9",
+                  "87e576987ba6c3e6be20c58720d1d28f2ab3104066b5a8529b412efdf05bfd01:28199df28cea4e9a455eb89ea4cfaf0d759b2629199df8dd8e83f1f50cec96c5",
+                  "4ad2f7b61a60e675670c5c86cc90f3fcb7bef4fdac49225f233f0aa7282ac206:4692a1189c36926ade4a5c31af73522c87056f575567f90a8e8ce0c198b28735",
+                  "1959cbcf2af485a3815ef0253daceb9272f69ef13da6e212d67130f94ac67e72:9f5ad33dea4d3e49d146dc2c329cc469254afeb01a6338b6f83eccbe788b237a",
+                  "10160bbb8e30439f504fd5aedd0f3b2d76e544f3182716a03ea4bbebd61a9fb0:2cf79f52d6f31188a57512195b91a68e97548e4bb4c054e19c0588933661f0c1",
+                  "c4f5f80c1dac0f27439e1310046099b0c7ff530fc8e643df6c501d7d408e2b36:2a9d7678bb6b97eafa1269287b97518749a204d357822c8ee5b36bbd18b15352",
+                  "fd4052d4c406eeb6f9a5e9deb230cf8d5bf03cf78366327af48cca6d110ec4d5:fb395312a9cd18a724e589a9467fa54caa6fca0239b7dacb3e6891da7310f387",
+                  "4d940f1f824ffeabf7d6b39ebc8aadf2f3c9bf439a0e873d494cede2db550642:1a14a392e9c1dacdef5c2a71939ee1ae1ce733144125fdb5786b18317ed85c46",
+                  "dad8eb79ed8caf56aab2a95d0f83685288e4448ec9c7c3fcd1b99c4dc8142b6d:9e6a91a4784e5f750ad086b355e2439ea75c46fad1487c16df8197f2a3ba8bf9",
+                  "2c59b5ec328916e8333fdc37150a539d994d7c157759144c07f9c33e705655c7:6cffeae016bdd3af672eb98281fea4883fcd55bf6cc3f2e8cd30364caba38ca9",
+                  "d4f584395df1d9000c31b65107da93b2eadd4bc19ef7996b7347e4d782577d24:3a5b6e26780f717f90d0da7a6fd75514d86f582d8ebd5528158352e79d7e747d",
+                  "3ecb253ae1c7fa9afdf24ed57d424f7249a405335be29d3903c042c8a8fa58bd:039ba80d3c6103b2a286d53a1080e2bf72767ab3cea9e2976e7d829a714689d1",
+                  "069a5d8a6fcc28d474d11ff34cee23cdf8765d9a950b77f092590af2e88ef808:1b62f9b2c1765ab22c2d3bdaac11215c9c1a278d68dbc4c91948151c4436717a",
+                  "7ca706181e7b3b43108646548b038da9b672225c489d50123063a134be6abd62:a9c576f0227ab944190d64c29c4237ab49c962bf97d126de11b1aae2ea20a034",
+                  "ffdf12b84314fc3e19588d2be20777e9ed83c4c09222e71b1f1d02a17e71a7ab:15c47e19db57322c3627473f67d618847a8e21e331d5838bd37b7ee851f0ef29",
+                  "ebe8a7e815f67de71368e195b89fb518a4e2325cd944c934a40926c421dd1632:d20512604bfedded2829dd181b90bcbef3c1ed01a32f2a21efb15ba30f8d2752",
+                  "391c6a59a74e51ef734cea3f6ed08f3ad5fbc0803e220955de868062a5acb231:a23b7f35aae30da50fa47c66a6ae8af051cb861c4a17bfa718f2e1d4df1dc7ab",
+                  "83446d324ed4c7f206b24c5cfe82a29887d13dc1824db8d0ca6493b287979b4e:9cb2acb7fb1ef314f5675c88c2c72a3d84bd22c1cafe40e9fb83d7baa3ee1867",
+                  "ca93812d61ca7d7c63578c6ab63e9155917670dc538e1bf533aa3433cdfbbf4b:afc2e769b73c5cabe37224b474b05973f32fe39fb1cd30397b638fa32eab519c",
+                  "49b646dd9b3cf49cc227cb3892eb61c238ff8af5d8325073768e402ea765a690:82e6dad9629e333c3d41280948792a7013ff30cc411cea01181e530e42da17f0",
+                  "668a0f9e33ffb16b8040bcf751b635085f05cdb09dbd0c5e7b71b1dca468b87f:ba5451185865aba7d020fa9f9250af1c268cb492c38c4f0235d431f2243c75cb"
+                ]
+              }
+            ],
+            [
+              "mean_bound",
+              {
+                "type": "dict",
+                "items": [
+                  [
+                    "raw_s_psd",
+                    1.378404875209022
+                  ],
+                  [
+                    "normalized_mu_psd",
+                    0.7071067811865475
+                  ],
+                  [
+                    "grid_coordinate_psd",
+                    0.7071067811865475
+                  ],
+                  [
+                    "changed_sites",
+                    20
+                  ],
+                  [
+                    "equal_sites",
+                    80
+                  ],
+                  [
+                    "exact_integer_etaL",
+                    true
+                  ],
+                  [
+                    "note",
+                    "Necessary centered-Gram PSD bound using rounded site counts; moment_feasibility also checks finite ranks and signal norm."
+                  ]
+                ]
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        "mean_cuts",
+        {
+          "type": "dict",
+          "items": [
+            [
+              "feasible",
+              {
+                "type": "array",
+                "key": "array_0019",
+                "shape": [
+                  5,
+                  81
+                ],
+                "dtype": "bool"
+              }
+            ],
+            [
+              "preparation_status",
+              {
+                "type": "array",
+                "key": "array_0020",
+                "shape": [
+                  5,
+                  81
+                ],
+                "dtype": "<U12"
+              }
+            ],
+            [
+              "reason",
+              {
+                "type": "array",
+                "key": "array_0021",
+                "shape": [
+                  5,
+                  81
+                ],
+                "dtype": "<U1"
+              }
+            ],
+            [
+              "status",
+              {
+                "type": "array",
+                "key": "array_0022",
+                "shape": [
+                  5,
+                  81
+                ],
+                "dtype": "<U12"
+              }
+            ],
+            [
+              "ridge",
+              {
+                "type": "array",
+                "key": "array_0023",
+                "shape": [
+                  5,
+                  81
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "risk",
+              {
+                "type": "array",
+                "key": "array_0024",
+                "shape": [
+                  5,
+                  81
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "kappa",
+              {
+                "type": "array",
+                "key": "array_0025",
+                "shape": [
+                  5,
+                  81
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "zero_slope",
+              {
+                "type": "array",
+                "key": "array_0026",
+                "shape": [
+                  5,
+                  81
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "r_infinity",
+              {
+                "type": "array",
+                "key": "array_0027",
+                "shape": [
+                  5,
+                  81
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "sigma2",
+              {
+                "type": "array",
+                "key": "array_0028",
+                "shape": [
+                  5,
+                  81
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "raw_s",
+              {
+                "type": "array",
+                "key": "array_0029",
+                "shape": [
+                  5,
+                  81
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "phi_train",
+              {
+                "type": "array",
+                "key": "array_0030",
+                "shape": [
+                  5,
+                  81
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "phi_test",
+              {
+                "type": "array",
+                "key": "array_0031",
+                "shape": [
+                  5,
+                  81
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "population_mean_train",
+              {
+                "type": "array",
+                "key": "array_0032",
+                "shape": [
+                  5,
+                  81
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "population_mean_test",
+              {
+                "type": "array",
+                "key": "array_0033",
+                "shape": [
+                  5,
+                  81
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "population_mean_shift",
+              {
+                "type": "array",
+                "key": "array_0034",
+                "shape": [
+                  5,
+                  81
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "test_variance",
+              {
+                "type": "array",
+                "key": "array_0035",
+                "shape": [
+                  5,
+                  81
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "mean_values",
+              {
+                "type": "array",
+                "key": "array_0036",
+                "shape": [
+                  81
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "r_values",
+              {
+                "type": "array",
+                "key": "array_0037",
+                "shape": [
+                  5
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "metadata",
+              {
+                "type": "dict",
+                "items": [
+                  [
+                    "base",
+                    {
+                      "type": "dict",
+                      "items": [
+                        [
+                          "q",
+                          20
+                        ],
+                        [
+                          "sigma",
+                          1.0
+                        ],
+                        [
+                          "G2",
+                          100.0
+                        ],
+                        [
+                          "f",
+                          0.2
+                        ],
+                        [
+                          "ftilde",
+                          0.2
+                        ],
+                        [
+                          "eta",
+                          0.2
+                        ],
+                        [
+                          "F",
+                          0.4
+                        ],
+                        [
+                          "FTest",
+                          0.4
+                        ],
+                        [
+                          "Fneq",
+                          0.2
+                        ],
+                        [
+                          "m",
+                          0.0
+                        ],
+                        [
+                          "mneq",
+                          0.0
+                        ],
+                        [
+                          "mneqtilde",
+                          0.0
+                        ],
+                        [
+                          "Cneq",
+                          null
+                        ],
+                        [
+                          "rhoneq",
+                          0.0
+                        ]
+                      ]
+                    }
+                  ],
+                  [
+                    "mean_values",
+                    {
+                      "type": "list",
+                      "items": [
+                        0.0,
+                        0.008125,
+                        0.01625,
+                        0.024375,
+                        0.0325,
+                        0.040625,
+                        0.04875,
+                        0.056875,
+                        0.065,
+                        0.073125,
+                        0.08125,
+                        0.08937500000000001,
+                        0.0975,
+                        0.105625,
+                        0.11375,
+                        0.12187500000000001,
+                        0.13,
+                        0.138125,
+                        0.14625,
+                        0.154375,
+                        0.1625,
+                        0.170625,
+                        0.17875000000000002,
+                        0.186875,
+                        0.195,
+                        0.203125,
+                        0.21125,
+                        0.21937500000000001,
+                        0.2275,
+                        0.235625,
+                        0.24375000000000002,
+                        0.251875,
+                        0.26,
+                        0.268125,
+                        0.27625,
+                        0.284375,
+                        0.2925,
+                        0.30062500000000003,
+                        0.30875,
+                        0.316875,
+                        0.325,
+                        0.333125,
+                        0.34125,
+                        0.349375,
+                        0.35750000000000004,
+                        0.36562500000000003,
+                        0.37375,
+                        0.381875,
+                        0.39,
+                        0.398125,
+                        0.40625,
+                        0.414375,
+                        0.4225,
+                        0.43062500000000004,
+                        0.43875000000000003,
+                        0.446875,
+                        0.455,
+                        0.463125,
+                        0.47125,
+                        0.479375,
+                        0.48750000000000004,
+                        0.49562500000000004,
+                        0.50375,
+                        0.511875,
+                        0.52,
+                        0.5281250000000001,
+                        0.53625,
+                        0.544375,
+                        0.5525,
+                        0.560625,
+                        0.56875,
+                        0.576875,
+                        0.585,
+                        0.593125,
+                        0.6012500000000001,
+                        0.609375,
+                        0.6175,
+                        0.625625,
+                        0.63375,
+                        0.641875,
+                        0.65
+                      ]
+                    }
+                  ],
+                  [
+                    "mean_convention",
+                    "normalized"
+                  ],
+                  [
+                    "reference_L",
+                    100
+                  ],
+                  [
+                    "stage",
+                    "mean_cuts"
+                  ],
+                  [
+                    "r_values",
+                    {
+                      "type": "list",
+                      "items": [
+                        0.1,
+                        0.3,
+                        1.0,
+                        3.0,
+                        10.0
+                      ]
+                    }
+                  ],
+                  [
+                    "search",
+                    {
+                      "type": "dict",
+                      "items": [
+                        [
+                          "method",
+                          "nonnegative"
+                        ],
+                        [
+                          "lambda_max",
+                          1000.0
+                        ],
+                        [
+                          "n_grid",
+                          641
+                        ]
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              "row_identities",
+              {
+                "type": "list",
+                "items": [
+                  "2488da1c1aa3abb6a1ecba23b8fad264d926d22c0104f99a762e8834649de34f:10c1b8256a30a56fe20663fa86f85cadc83bdc8349e2942eee63f178bcd3f0d9",
+                  "1e2479592be826a0e20662268e4a6afbd44d5677de4467352b211dfa4293e4f6:4654bf76838b9071351f022ab315f2f2d1f54e12f060fdf577d2d13fddc8969d",
+                  "804a0b35b7aa797eedb4966b34edb28377461b94fdf58505c0305c52d77afb82:44a62f1236ea3f1f30c143bbb5fca6c0594fd1d6b5e887748db7994eb8f62f85",
+                  "326fa6b419dc55e35c9ccade2c6454e076f44c3ecfb534a49d3d9cff6c889ebf:e80d1e51d9907358e8b0e186f384976b5efde6a0d014afa5c70816d9deb68283",
+                  "e8c32a1fa3379b416533e7e2641f82dd134cffc4dc8d64ee5bde51300a812f0e:6ebb501da9b50a4bee9f750cba7c8df5e5c8036e1191b43b5000a6d9ce1297a9"
+                ]
+              }
+            ],
+            [
+              "mean_bound",
+              {
+                "type": "dict",
+                "items": [
+                  [
+                    "raw_s_psd",
+                    1.378404875209022
+                  ],
+                  [
+                    "normalized_mu_psd",
+                    0.7071067811865475
+                  ],
+                  [
+                    "grid_coordinate_psd",
+                    0.7071067811865475
+                  ],
+                  [
+                    "changed_sites",
+                    20
+                  ],
+                  [
+                    "equal_sites",
+                    80
+                  ],
+                  [
+                    "exact_integer_etaL",
+                    true
+                  ],
+                  [
+                    "note",
+                    "Necessary centered-Gram PSD bound using rounded site counts; moment_feasibility also checks finite ranks and signal norm."
+                  ]
+                ]
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        "r_cuts",
+        {
+          "type": "dict",
+          "items": [
+            [
+              "feasible",
+              {
+                "type": "array",
+                "key": "array_0038",
+                "shape": [
+                  81,
+                  4
+                ],
+                "dtype": "bool"
+              }
+            ],
+            [
+              "preparation_status",
+              {
+                "type": "array",
+                "key": "array_0039",
+                "shape": [
+                  81,
+                  4
+                ],
+                "dtype": "<U12"
+              }
+            ],
+            [
+              "reason",
+              {
+                "type": "array",
+                "key": "array_0040",
+                "shape": [
+                  81,
+                  4
+                ],
+                "dtype": "<U1"
+              }
+            ],
+            [
+              "status",
+              {
+                "type": "array",
+                "key": "array_0041",
+                "shape": [
+                  81,
+                  4
+                ],
+                "dtype": "<U12"
+              }
+            ],
+            [
+              "ridge",
+              {
+                "type": "array",
+                "key": "array_0042",
+                "shape": [
+                  81,
+                  4
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "risk",
+              {
+                "type": "array",
+                "key": "array_0043",
+                "shape": [
+                  81,
+                  4
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "kappa",
+              {
+                "type": "array",
+                "key": "array_0044",
+                "shape": [
+                  81,
+                  4
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "zero_slope",
+              {
+                "type": "array",
+                "key": "array_0045",
+                "shape": [
+                  81,
+                  4
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "r_infinity",
+              {
+                "type": "array",
+                "key": "array_0046",
+                "shape": [
+                  81,
+                  4
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "sigma2",
+              {
+                "type": "array",
+                "key": "array_0047",
+                "shape": [
+                  81,
+                  4
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "raw_s",
+              {
+                "type": "array",
+                "key": "array_0048",
+                "shape": [
+                  81,
+                  4
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "phi_train",
+              {
+                "type": "array",
+                "key": "array_0049",
+                "shape": [
+                  81,
+                  4
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "phi_test",
+              {
+                "type": "array",
+                "key": "array_0050",
+                "shape": [
+                  81,
+                  4
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "population_mean_train",
+              {
+                "type": "array",
+                "key": "array_0051",
+                "shape": [
+                  81,
+                  4
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "population_mean_test",
+              {
+                "type": "array",
+                "key": "array_0052",
+                "shape": [
+                  81,
+                  4
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "population_mean_shift",
+              {
+                "type": "array",
+                "key": "array_0053",
+                "shape": [
+                  81,
+                  4
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "test_variance",
+              {
+                "type": "array",
+                "key": "array_0054",
+                "shape": [
+                  81,
+                  4
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "mean_values",
+              {
+                "type": "array",
+                "key": "array_0055",
+                "shape": [
+                  4
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "r_values",
+              {
+                "type": "array",
+                "key": "array_0056",
+                "shape": [
+                  81
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "metadata",
+              {
+                "type": "dict",
+                "items": [
+                  [
+                    "base",
+                    {
+                      "type": "dict",
+                      "items": [
+                        [
+                          "q",
+                          20
+                        ],
+                        [
+                          "sigma",
+                          1.0
+                        ],
+                        [
+                          "G2",
+                          100.0
+                        ],
+                        [
+                          "f",
+                          0.2
+                        ],
+                        [
+                          "ftilde",
+                          0.2
+                        ],
+                        [
+                          "eta",
+                          0.2
+                        ],
+                        [
+                          "F",
+                          0.4
+                        ],
+                        [
+                          "FTest",
+                          0.4
+                        ],
+                        [
+                          "Fneq",
+                          0.2
+                        ],
+                        [
+                          "m",
+                          0.0
+                        ],
+                        [
+                          "mneq",
+                          0.0
+                        ],
+                        [
+                          "mneqtilde",
+                          0.0
+                        ],
+                        [
+                          "Cneq",
+                          null
+                        ],
+                        [
+                          "rhoneq",
+                          0.0
+                        ]
+                      ]
+                    }
+                  ],
+                  [
+                    "mean_values",
+                    {
+                      "type": "list",
+                      "items": [
+                        0.0,
+                        0.2,
+                        0.4,
+                        0.6
+                      ]
+                    }
+                  ],
+                  [
+                    "mean_convention",
+                    "normalized"
+                  ],
+                  [
+                    "reference_L",
+                    100
+                  ],
+                  [
+                    "stage",
+                    "r_cuts"
+                  ],
+                  [
+                    "r_values",
+                    {
+                      "type": "list",
+                      "items": [
+                        0.1,
+                        0.10592537251772889,
+                        0.11220184543019636,
+                        0.11885022274370183,
+                        0.12589254117941673,
+                        0.1333521432163324,
+                        0.14125375446227545,
+                        0.14962356560944334,
+                        0.15848931924611134,
+                        0.16788040181225602,
+                        0.1778279410038923,
+                        0.18836490894898006,
+                        0.19952623149688797,
+                        0.21134890398366465,
+                        0.223872113856834,
+                        0.23713737056616552,
+                        0.251188643150958,
+                        0.26607250597988097,
+                        0.28183829312644537,
+                        0.298538261891796,
+                        0.31622776601683794,
+                        0.33496543915782767,
+                        0.35481338923357547,
+                        0.3758374042884442,
+                        0.3981071705534973,
+                        0.4216965034285822,
+                        0.44668359215096315,
+                        0.4731512589614805,
+                        0.5011872336272724,
+                        0.5308844442309885,
+                        0.5623413251903491,
+                        0.5956621435290105,
+                        0.6309573444801934,
+                        0.6683439175686147,
+                        0.707945784384138,
+                        0.7498942093324559,
+                        0.7943282347242815,
+                        0.8413951416451951,
+                        0.8912509381337457,
+                        0.9440608762859236,
+                        1.0,
+                        1.059253725177289,
+                        1.1220184543019636,
+                        1.1885022274370183,
+                        1.2589254117941675,
+                        1.333521432163324,
+                        1.4125375446227548,
+                        1.4962356560944337,
+                        1.584893192461114,
+                        1.6788040181225607,
+                        1.7782794100389228,
+                        1.883649089489801,
+                        1.9952623149688797,
+                        2.1134890398366477,
+                        2.23872113856834,
+                        2.371373705661655,
+                        2.511886431509581,
+                        2.6607250597988097,
+                        2.818382931264455,
+                        2.9853826189179604,
+                        3.1622776601683795,
+                        3.3496543915782775,
+                        3.548133892335755,
+                        3.7583740428844434,
+                        3.981071705534973,
+                        4.216965034285822,
+                        4.466835921509633,
+                        4.731512589614805,
+                        5.011872336272725,
+                        5.308844442309884,
+                        5.623413251903491,
+                        5.956621435290106,
+                        6.309573444801933,
+                        6.683439175686149,
+                        7.07945784384138,
+                        7.498942093324558,
+                        7.943282347242818,
+                        8.413951416451951,
+                        8.91250938133746,
+                        9.440608762859236,
+                        10.0
+                      ]
+                    }
+                  ],
+                  [
+                    "search",
+                    {
+                      "type": "dict",
+                      "items": [
+                        [
+                          "method",
+                          "nonnegative"
+                        ],
+                        [
+                          "lambda_max",
+                          1000.0
+                        ],
+                        [
+                          "n_grid",
+                          641
+                        ]
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              "row_identities",
+              {
+                "type": "list",
+                "items": [
+                  "3f25d5044fc3ad79ee6a4414888088c5984e34999fe27ea90f7a2d1a2d9df100:aca25129b029487eece1979d87345be2588120bd9a2dc6611559915906669e8b",
+                  "5b3c8274105f736af09b0b8f386a27460e44556f92f7855bd420468777d34979:d52781d581e6acd67544dcc3819b26560ae462df7baca9207abe164bc608c5df",
+                  "780f73103a0d38f826bc1a1f9c0afeeb9f7619ff87444cad654b329c9d691c38:47004a90d3e1e71869bc23902f01572152efd2207fb52d2b8bd9bc2737975e78",
+                  "f1d94e03f6739e128593af843d48163ab28c8325f65100e80ea1089dada063ed:dee1984c94f42b747886b8a6e80356ea3f6bcf5dd47b46a3e556c9a74c6a1419",
+                  "c8c2d52d12745cc5005da019f9b3ba814f66d472a348f1d84fea7fe1672d2d5a:c109765abd480b2e12900f1e0aa592fd8482c2bd96f716897ec4a3517a7883ee",
+                  "4530726180db3e5575052f3d9a33435528bd9369a887f512f5a02bcac2b0df88:8208528d88e761ebec15d180b2c360676b05b8ee1c6701b69ffc6587d51c5334",
+                  "314f64733a97052f21f39cd783d4c1d839364d4b36530b20da32544176584aea:fdecde168cdaeca87a384f2504cc41efe71e88159e5bd2ba05e8bd7f459f10cc",
+                  "3a369c988695c2eaf0cd044a341a36e19805981dd9dcdfe7f7076c029e2d9d64:cfb4d18950c802ad8c1b94b935d1e7a4914f08f37f29943db2c2ccb5810e375b",
+                  "4716125cc20af1dd4020b02f0de49453ab337b8ca377c700273cff7d9519c4fc:ef708bc508b2de49117863ff71dca537bf5e972e13d2baef6f8f0263d983454b",
+                  "2ab728274a91b0bdc5efc1119566662e8229c8706897c1c3804e618474335af1:db9034966bcca76501cdb4d7275210ecfc14cf1f4f3d696f19193f1b0997ef1e",
+                  "397719b9fae7d8f12d547c4dc480420aa52d868eed2a7f128c6f3f2180fa4af5:737200244d8ef446dd19567f71b156ed568aa6fdfbfa435d87dcd54bea7ad8b7",
+                  "4e9c4ae57b69bbb765612c928573d96a40b72a161235597e977beff5e424fe53:3d25e6094e287d250fe493cb8ca847912ef9fae8f43171083d0f11ee627197f7",
+                  "870d9a85bae06ec76d02aea863db69e3ed8e685dd86a935caf126ab7d46e0fb0:238509e8af00dae0b04ab51ab9404c291d0bddf6c7c6a1364220f60f22babe6c",
+                  "f17d887c18d517451fc8f867ffeeb3c0cc966d392ad512429c378d28e4b69a1d:ead026cd44b9cb2eae4788fdd84cac89f78febe9df360b6365bfce60553ac410",
+                  "da4ef75ddaf5151578f3d59cdc8829f89c2b25116b3a6fb283c06dc136ef9de3:6e52eb49bc8e742751ecb9d6b6770c8512c64995cfc764b6e1b911eaf6336f2e",
+                  "b0981e88f91384cb0d0386f9e4d1d71a7d62db052bf90f7c7fef5dacf95567e0:320b9258313e4437155495cd2797ce15b122d55ac71f1291358f3f101e9eab50",
+                  "77af707095c43b396ee819a9af6408b57a8a8f552c94149d2f291546414222d0:1ed2ad9d4feeaadb3ba8dbade0de3ffcc123a2dab4ab00caf5458a64818a5f64",
+                  "bd2c4e4c9cb3cfb957786880d302756afef34234eb70cb680d30fc5d9b61aa07:4b4a0ba18754c9a1047e6eaa8e0d9da6995ad0f5088fc855bdf70669602081fe",
+                  "02daf3a8d1a8684e653682bb8290a09962bf9333aa370fc15aea250f5c6748f5:8549b5ea6756caeb28b5269f65affa1e97134cbeee5bc60d513915c0d99f7fe0",
+                  "926ccea8f177ce27d2c745fdefa84cac1cb106f0f4ac003e449fff240853f2f0:6545f5efdba3e1f2df14614a11da8aeffaaf7ca50b2fbe76d20f6c97d948f30b",
+                  "fd44cbf74fe18780b3b00749cd7e881a1930faba5c381cddb6c36e328d49114f:fbf5efd29264c1d17abdc98bea15c80bd9d513a839adff171e1f6ba6f303bcdf",
+                  "537901611283e7ce2e9fc21e2081fd87820188f05ec43cc3ede57b1944205d28:ebbfd7adfe768836fb25e34504ec4fc6e574b06419afd9b82a3979585672b4b1",
+                  "af1b119b7650b3bfb9cf69378b6a5a320a7d21637e6b5e1daa77f8547f0e68ac:d2753cd38041d6c749035ab5dd5324a17993305722857efddf14b0eb7b17aa0f",
+                  "8479a902d5c6850c97f95068b6ebee2f095024c891f2925a9adf6a227a932ec3:e680bad14314f07c7a1fec0c23ad2c0ae230563c48f57a24c87cc3d9265db657",
+                  "3ce5fc841e526f6ab956dc3fa9b0682ce0313f4e3ec0abcbb5cafc99e66e47d2:44f48434b37cfee2ce6d14d8d71440bafb3a2404c2a5a9ba3658f56f1b69f31d",
+                  "fef3b909a8a88c30669738365bd6fcb1a24931de5067061ea9b006a18eaff987:0fe448863ec4aa1ebdbd375b7c7153c76a3e8c8573b88b0d69f9518f1b9deb21",
+                  "f835e991e4a8f6eb3f1c73e93e8bb1f4519a406b75c8a0f8f107d58230b70343:00a3d46b624078a506bfb68a0290df0838c072cd5e9382ce122464ecbf1aa558",
+                  "cc1c4f11b991bb0026e168b0d84d20c60455928baed44ec69dcc3fa6e8555d6c:d6d8f28604758bc372dd0e6944437af593c4465f6e000e35344151760736f697",
+                  "cb70bf231e3f3bb1b97795da4c1b6690343a5d3ae95cb22a0e1f4b41b1431199:6aa74a4d24464515621cbe2ca24e26cb9ba76ead1a90a7e03afbf3108a7c70e0",
+                  "426ac0139c885250e7e38153d8594a2e7f01dfa1e0dd8f149df5c90cb278a200:a0e04b348ac2898a20d44153c1bcece49564206bd81b100cdc2abc2fa7785ff4",
+                  "7768cae8ee7522d9e0d3d61d1a58b88a3f853dd62361b68d2dd25c3d40ab0c77:1a85098d402ceb07f9db411baaaffcfb735599a0f13e8a9771d63cdc271a1173",
+                  "ef7eb5ac50d525246164e1a9c9c9acb1418d4c684ff4d9ae56a95281c935a0e0:58137a1473055fb9a6ef99e99fadb1068dbfe3ebd51a343a0f66fd6487ad1872",
+                  "53e4a02468b1454507f92954a4c70714f19ef33a80948e21efc80049b8444bb2:a5bdb098de70dff8ebf506642e2b8a3004a5ffa3d3aa9f4cb0e668989df86fce",
+                  "a6f23088176edbdb398e1681ecda98e5a75e755da53a42500600fa7dcc0edd49:7e0775a0e4c710521653e02a027baf38c14db55694bce1d5143e4e50b9c62bda",
+                  "59623fdd6697a2870cf17c9797bd03c06a5005fe8cd93d2b5d45a56bd5027c86:4fb2be53987133eac785e79439423d9d16ef477dd759b143917b8e276782487c",
+                  "ed0c91799d63c850c6385ed3f79bf6f5bd10d11b1393e0e1c6afd538cd4162f3:a888f603b654bf7a5c0cb5f4e84966b9ab501845e438bac554574073627c064d",
+                  "44bb0bd203dcd4dba5acf02ae8109cc53ae6a4abcbb02b27fc671f21ae880401:911f619c04b000a690abc8ba3c210a2cd7f8efa5407a664fe55017bb84f48950",
+                  "0a046a87a4b119b4ad408b214f082611196f5a4f6f051c94275cd60f6213eb8b:c7266811534bbab2790c8d829939327b14bcd6f773a6206e12bc2d211d665871",
+                  "6151ba2b0a416c16f0abf16cdc4ccaab4dc4f3a2fe7070093d8793bcf15ef326:d4d5a4bce34a6f92b4265d7a9f28c2498e250c11c5dfd29fabe3b00e9dcff307",
+                  "d702fd3b2fbe93c71c66f93c7bba2621a7577a212d2696c8cc0a77c071d8b809:9d3046766aab57dd1835238d32b3177677daf113be1f2163547d129004566e7c",
+                  "3d8124357bc0f6c74f913ff6305ef0ac7cca43a2b087eef8faa7ae12659175a6:bf01ecd3d7fa4c48511c7559d0174217303e3705ec9476677b2115115b9aef93",
+                  "1206b311775376adefbce073bf4b92411e8d44ff7cb57993121a5d9fde12e2d9:3aff102e7acb7580d0f6119ea18f37c24dd19048585485ac8ac184e529cae39e",
+                  "c69826bd5b151c8f10df188d18fa06731805d2048b9d6932cff9e7a485e5d759:227edd3d73d768a17f1890813253caf33706e087382564c9030a5e771e571719",
+                  "b26635363b47176e1fc3e3fe9b4377cb5a0c56510daee0543601c0e6807081c8:1a543085f3145b0e0dcb25cb7555c418f90cb00050a968137e990c918a67b17c",
+                  "6aacdae9ae8c171140f839589beea218bd0f4a5b59df583e5c229bbf3ca9a1cb:0ca14bba1adc52cfc16fdc32b4333cb9f17eb6e16bbffd4f09240d76e0183466",
+                  "fb3ae02f3853e2e8c2952cb831a436fdffcc4d069b6b4bead6bd61f2743f8988:4371e7178ffa02bb18417877bf1f7fefed86f6875b0b1e38362613d8a789d35c",
+                  "c8426b1c5574adf3c3cbe618e7632f3f8034c70e23541db2e241484871ad47c6:6bdc33fe56e069a4b25d2068660553cef455736885f55ff1965357dfe2bad631",
+                  "a57b9ca4b876fbd56db4cb643e4e1aee7cc076622d69ceb51f8c421461c5f8a3:2721264f85b6716759742fa265f55d838540f10aafdf920e73d91f377c44b469",
+                  "623d62d34dc5526ed8e051b3fd8308d31c5703eb1ddd907686ce4ec0be446b62:aba0f12ae451b1f99326afab0293a3182bfbbb9992fc36e7b3a293a587a65d07",
+                  "8f8a629bb24f8fb613455f2d81df383caf35f851cbb4aa521b24377cbf694e1b:3818a088160dedfae8b452a6579212f788f36da1e79e6b3d638ec8004064fc2b",
+                  "576db15bb2a0ab6669c2ce953ac42057f783464155237450a35807249dddd247:ad58ca4d7276bf5d0e0a9bd770559a3f5ffc3492d7a19a878ecc5c4fc028443e",
+                  "857328e6639919172d1202108a4997c3dea0c5828e3e77f07b335c4eb6c8b5d3:b1e7dedc33d6ff54344afa22b82533cdec6ed22caaac3c49bb403f47e578f090",
+                  "b25267de5f01e8f2275aa92d2b8466f09fccdbf0883994f9b78fe4334147d70d:7c2b4fa69fcc2cc2f78ee5f21748a4179b59699a48814e8ecd41ad7f74648dd3",
+                  "e7b573a0fe0616c2f53f865cf0698999dde488ec83a195de2365265d4cd18190:09e383c6cab95cbf70cdff4540c29d6cd6727a084b644c68bb2cc7c8e36c2c8e",
+                  "062c01eb88a127548bdcacda0bec8e7396b5dea334f9956ef17854ed670e314e:3cac2ce49d1b06e2039f74f243a05a11bbcbd0462c9976b92a58881afd5154f5",
+                  "a5c119028538794a5540f36d133028c8acf204493cbf9d47126d4706da9cd736:9dffcca70a3cd55c685dd9e3b9b2dc7703d07ede7875a5bbdb5d6f99022405e3",
+                  "c0280c1eee554c7a1bc647546c811545ebb1599e9cc129e73eeea2a95f1cff8b:e57acb72915b8b173c0bed7daa373289d26b8559e84da92f91181ba8d28fc09a",
+                  "e63d2cb5a7e2374f84b2709eb532c16f6487085627b893911249dfdc6e10af5d:a1982cb25d472d2a024f9edd53a42769c65ab9d0ecdef5ebc50a70578e10a56e",
+                  "47ce720c9c9dd6effd29d98c3a06b320d5d702776748be0a2ff33412bdbfd65f:441b4ad0d5d29ebc5adbfa364eb06c59cfcab8efa5e7ae31997b239c6be1ce68",
+                  "a7b1be3e9b6359f46b104088d1f5d958440b7af31ecc78d9901381ae1b476704:7c3fce2f3db12dac85ea0f0891bf70bced50a48a4d427ad1032e285f654948e1",
+                  "db0642ded31adf832819fd62e0db9a58bde599b6cf3e546525dccd297c49dd2a:f30ac6076f895910a979390131aaefc0fb311c135a54561d6835c164935b99f5",
+                  "a2da50091ab1054cd08d667d377dda079c5ebc1f14f8049e619ef0f613aef459:d06f888cf2913978dc3cf390c0e90770900d1f73aa8ba171a3018c9cb27c5508",
+                  "949d53eb256452d7b2c751b747e5781cb955c1260a797b087ccef08927c578c8:f058361bdbcb744ee8a39083554fc4518cb18ae209628e99cb7f5b6dc76f839a",
+                  "e2cbb577fff4c688dbe65f0a525107ac48ce679d2f6e24a75c179d17fa47d3cd:50ab74b4821635c989cfe48ccb60e126131ecfc2a5a561b5da17cd3fcdfb6553",
+                  "e1c963ab99ac163ac4521161a9fd1dc5c9512777207fbb515fb1a482f24d47ef:3bd99a2ae62216d8b52914a1245d2447eab0cabd30a7e80db9d52a8c6c821f48",
+                  "5b7aba2c14f8bd1552c4b77ff8d8ca147370ed7f31408bc03f05799f3936b877:8f3b30c726cfcbbd93cbd0e31b59dc63160f97cfda27033c5dddae28fc92699e",
+                  "dff36149e1742e399732f9e61fcaa5a951464d0d7b804fbf0e6de159be45995e:ac1c266aa880b0e5caa00f921667a37139e2d1d758fc7db50c16f187b8740852",
+                  "f39058636998a5f0edf85f9c9190e7bc1bf98db92a4a8c189be99ee3e120c8db:464ec40837f7c3744d43553abefc9ee9ba2569ea02321e42fac4135a008e80aa",
+                  "468cfd2f5d227c0da241a693754dd28728a4d0d1d11608835eacfa4c6a1cb3d4:d73237c84b75cd63c2abb578c20c81311df6fb95045053bdd34a9deb26d0ab1f",
+                  "ce5fd1474120187ec7b35cabd7042a0c8f87157bbd0a0e964b140881a2cd41af:927c6c9de85b3d389a5566a4e4728f9b858cf7c5f0b439600ebfc8ffe4e3d805",
+                  "5a20720356f415a87c04043718f0f4d1f25111a4e571e87feeafa94e1f49a762:8fbffc0cef05e70f3875cdd1a2437cdf6f3fb8c16bdc40e4e8de15793ad3976c",
+                  "43cba70bb6335cd27d6aa6874d5068df7f4f0bbb830e9db251003945acfceb88:4f526ab647ebe5605b617a3c6c2ed236beddf907622bf471561d99e3ac119fec",
+                  "7cf0561a92f3214ec309e484504a70eefea693d6544921485a121297f60625f0:14693da307879a8b616258bd2bd4043cb1c6cbd9221d6cb2c13d52eba7369a2f",
+                  "2119edb6492f93d5dd972e35861352c9dc652fe2ccac374eb4873749201af374:b12e812b8b788881d1aa0f8910cdba09f339e39972ae97d6f71a89f244ed3486",
+                  "3d1ddb2b53d99f9c7096dcaccfd705b72fa28544aa5468d8aeb86eaae559ba6b:1637565f7a73e94d2686f224d3928bf9e6e4fb43e92574d0881fabf2663884d8",
+                  "aeca7dae54dc21a448d9bbe4734bee6a5224a8e5cb14ad6577ce580589a51eea:9606c5c2e16f187ba9b1a94ee15279a4a94eddc4bffc015423a03591d0d5daad",
+                  "93864792d464c43dc7b7ed41e4edbf6842a71085121991d775505aa815ef784f:45aceecc44c48cb2d02d222e78bf726897f3aad3ab70bb295804dc13bae5fc54",
+                  "31a0700c741e0d8f68536e1bbfe2106aab5575d96b477ca132b6be1fa9cb0bc5:c83a3466cc7108636c07090873dd06024822e4c79fb7335103b27d2aaac2346b",
+                  "521a021616399d6494a0c0cf45b011bf3fbee0afb76bd3f42f003e6a1bc9fcc6:174817d47825ac660374a5cd7712e1158ed03d538a83100b7144f537b2398cad",
+                  "2b1fdb4b5faa844c65826d85a1ed35c2cd11c8622c4aa42ffadb83fe29cb5e25:36c54b2f11193c8352d7e87390573346d26df6c8b42a7c1419cbea373e5aaf2b",
+                  "b1327606c2d196a3e93e50f8322235e1ce54961912848c479c38a9e13212404d:0948c73911baa46fee9ed214f31c29722c61184868ccb048a286f0bed5cab797"
+                ]
+              }
+            ],
+            [
+              "mean_bound",
+              {
+                "type": "dict",
+                "items": [
+                  [
+                    "raw_s_psd",
+                    1.378404875209022
+                  ],
+                  [
+                    "normalized_mu_psd",
+                    0.7071067811865475
+                  ],
+                  [
+                    "grid_coordinate_psd",
+                    0.7071067811865475
+                  ],
+                  [
+                    "changed_sites",
+                    20
+                  ],
+                  [
+                    "equal_sites",
+                    80
+                  ],
+                  [
+                    "exact_integer_etaL",
+                    true
+                  ],
+                  [
+                    "note",
+                    "Necessary centered-Gram PSD bound using rounded site counts; moment_feasibility also checks finite ranks and signal norm."
+                  ]
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    ]
+  },
+  "metadata": {
+    "type": "dict",
+    "items": [
+      [
+        "settings",
+        {
+          "type": "dict",
+          "items": [
+            [
+              "base",
+              {
+                "type": "dict",
+                "items": [
+                  [
+                    "q",
+                    20
+                  ],
+                  [
+                    "sigma",
+                    1.0
+                  ],
+                  [
+                    "G2",
+                    100.0
+                  ],
+                  [
+                    "f",
+                    0.2
+                  ],
+                  [
+                    "ftilde",
+                    0.2
+                  ],
+                  [
+                    "eta",
+                    0.2
+                  ],
+                  [
+                    "F",
+                    0.4
+                  ],
+                  [
+                    "FTest",
+                    0.4
+                  ],
+                  [
+                    "Fneq",
+                    0.2
+                  ],
+                  [
+                    "m",
+                    0.0
+                  ],
+                  [
+                    "mneq",
+                    0.0
+                  ],
+                  [
+                    "mneqtilde",
+                    0.0
+                  ],
+                  [
+                    "Cneq",
+                    null
+                  ],
+                  [
+                    "rhoneq",
+                    0.0
+                  ]
+                ]
+              }
+            ],
+            [
+              "mean_convention",
+              "normalized"
+            ],
+            [
+              "reference_L",
+              100
+            ],
+            [
+              "search",
+              {
+                "type": "dict",
+                "items": [
+                  [
+                    "method",
+                    "nonnegative"
+                  ],
+                  [
+                    "lambda_max",
+                    1000.0
+                  ],
+                  [
+                    "n_grid",
+                    641
+                  ]
+                ]
+              }
+            ],
+            [
+              "stages",
+              {
+                "type": "dict",
+                "items": [
+                  [
+                    "map",
+                    {
+                      "type": "dict",
+                      "items": [
+                        [
+                          "mean_values",
+                          {
+                            "type": "list",
+                            "items": [
+                              0.0,
+                              0.013000000000000001,
+                              0.026000000000000002,
+                              0.03900000000000001,
+                              0.052000000000000005,
+                              0.065,
+                              0.07800000000000001,
+                              0.09100000000000001,
+                              0.10400000000000001,
+                              0.117,
+                              0.13,
+                              0.14300000000000002,
+                              0.15600000000000003,
+                              0.169,
+                              0.18200000000000002,
+                              0.195,
+                              0.20800000000000002,
+                              0.22100000000000003,
+                              0.234,
+                              0.24700000000000003,
+                              0.26,
+                              0.273,
+                              0.28600000000000003,
+                              0.29900000000000004,
+                              0.31200000000000006,
+                              0.325,
+                              0.338,
+                              0.35100000000000003,
+                              0.36400000000000005,
+                              0.37700000000000006,
+                              0.39,
+                              0.403,
+                              0.41600000000000004,
+                              0.42900000000000005,
+                              0.44200000000000006,
+                              0.455,
+                              0.468,
+                              0.48100000000000004,
+                              0.49400000000000005,
+                              0.507,
+                              0.52,
+                              0.533,
+                              0.546,
+                              0.559,
+                              0.5720000000000001,
+                              0.5850000000000001,
+                              0.5980000000000001,
+                              0.6110000000000001,
+                              0.6240000000000001,
+                              0.637,
+                              0.65
+                            ]
+                          }
+                        ],
+                        [
+                          "r_values",
+                          {
+                            "type": "list",
+                            "items": [
+                              0.1,
+                              0.1096478196143185,
+                              0.12022644346174129,
+                              0.1318256738556407,
+                              0.14454397707459277,
+                              0.15848931924611134,
+                              0.17378008287493754,
+                              0.19054607179632474,
+                              0.20892961308540398,
+                              0.2290867652767773,
+                              0.251188643150958,
+                              0.2754228703338166,
+                              0.3019951720402016,
+                              0.3311311214825911,
+                              0.3630780547701014,
+                              0.3981071705534972,
+                              0.436515832240166,
+                              0.4786300923226384,
+                              0.5248074602497725,
+                              0.5754399373371569,
+                              0.6309573444801934,
+                              0.6918309709189364,
+                              0.7585775750291838,
+                              0.8317637711026711,
+                              0.9120108393559097,
+                              1.0,
+                              1.096478196143185,
+                              1.2022644346174132,
+                              1.3182567385564075,
+                              1.4454397707459272,
+                              1.5848931924611134,
+                              1.7378008287493754,
+                              1.9054607179632472,
+                              2.0892961308540396,
+                              2.2908676527677736,
+                              2.511886431509581,
+                              2.7542287033381663,
+                              3.019951720402016,
+                              3.311311214825911,
+                              3.630780547701014,
+                              3.981071705534973,
+                              4.365158322401661,
+                              4.786300923226383,
+                              5.248074602497725,
+                              5.7543993733715695,
+                              6.309573444801933,
+                              6.918309709189366,
+                              7.58577575029184,
+                              8.317637711026709,
+                              9.120108393559097,
+                              10.0
+                            ]
+                          }
+                        ]
+                      ]
+                    }
+                  ],
+                  [
+                    "mean_cuts",
+                    {
+                      "type": "dict",
+                      "items": [
+                        [
+                          "mean_values",
+                          {
+                            "type": "list",
+                            "items": [
+                              0.0,
+                              0.008125,
+                              0.01625,
+                              0.024375,
+                              0.0325,
+                              0.040625,
+                              0.04875,
+                              0.056875,
+                              0.065,
+                              0.073125,
+                              0.08125,
+                              0.08937500000000001,
+                              0.0975,
+                              0.105625,
+                              0.11375,
+                              0.12187500000000001,
+                              0.13,
+                              0.138125,
+                              0.14625,
+                              0.154375,
+                              0.1625,
+                              0.170625,
+                              0.17875000000000002,
+                              0.186875,
+                              0.195,
+                              0.203125,
+                              0.21125,
+                              0.21937500000000001,
+                              0.2275,
+                              0.235625,
+                              0.24375000000000002,
+                              0.251875,
+                              0.26,
+                              0.268125,
+                              0.27625,
+                              0.284375,
+                              0.2925,
+                              0.30062500000000003,
+                              0.30875,
+                              0.316875,
+                              0.325,
+                              0.333125,
+                              0.34125,
+                              0.349375,
+                              0.35750000000000004,
+                              0.36562500000000003,
+                              0.37375,
+                              0.381875,
+                              0.39,
+                              0.398125,
+                              0.40625,
+                              0.414375,
+                              0.4225,
+                              0.43062500000000004,
+                              0.43875000000000003,
+                              0.446875,
+                              0.455,
+                              0.463125,
+                              0.47125,
+                              0.479375,
+                              0.48750000000000004,
+                              0.49562500000000004,
+                              0.50375,
+                              0.511875,
+                              0.52,
+                              0.5281250000000001,
+                              0.53625,
+                              0.544375,
+                              0.5525,
+                              0.560625,
+                              0.56875,
+                              0.576875,
+                              0.585,
+                              0.593125,
+                              0.6012500000000001,
+                              0.609375,
+                              0.6175,
+                              0.625625,
+                              0.63375,
+                              0.641875,
+                              0.65
+                            ]
+                          }
+                        ],
+                        [
+                          "r_values",
+                          {
+                            "type": "list",
+                            "items": [
+                              0.1,
+                              0.3,
+                              1.0,
+                              3.0,
+                              10.0
+                            ]
+                          }
+                        ]
+                      ]
+                    }
+                  ],
+                  [
+                    "r_cuts",
+                    {
+                      "type": "dict",
+                      "items": [
+                        [
+                          "mean_values",
+                          {
+                            "type": "list",
+                            "items": [
+                              0.0,
+                              0.2,
+                              0.4,
+                              0.6
+                            ]
+                          }
+                        ],
+                        [
+                          "r_values",
+                          {
+                            "type": "list",
+                            "items": [
+                              0.1,
+                              0.10592537251772889,
+                              0.11220184543019636,
+                              0.11885022274370183,
+                              0.12589254117941673,
+                              0.1333521432163324,
+                              0.14125375446227545,
+                              0.14962356560944334,
+                              0.15848931924611134,
+                              0.16788040181225602,
+                              0.1778279410038923,
+                              0.18836490894898006,
+                              0.19952623149688797,
+                              0.21134890398366465,
+                              0.223872113856834,
+                              0.23713737056616552,
+                              0.251188643150958,
+                              0.26607250597988097,
+                              0.28183829312644537,
+                              0.298538261891796,
+                              0.31622776601683794,
+                              0.33496543915782767,
+                              0.35481338923357547,
+                              0.3758374042884442,
+                              0.3981071705534973,
+                              0.4216965034285822,
+                              0.44668359215096315,
+                              0.4731512589614805,
+                              0.5011872336272724,
+                              0.5308844442309885,
+                              0.5623413251903491,
+                              0.5956621435290105,
+                              0.6309573444801934,
+                              0.6683439175686147,
+                              0.707945784384138,
+                              0.7498942093324559,
+                              0.7943282347242815,
+                              0.8413951416451951,
+                              0.8912509381337457,
+                              0.9440608762859236,
+                              1.0,
+                              1.059253725177289,
+                              1.1220184543019636,
+                              1.1885022274370183,
+                              1.2589254117941675,
+                              1.333521432163324,
+                              1.4125375446227548,
+                              1.4962356560944337,
+                              1.584893192461114,
+                              1.6788040181225607,
+                              1.7782794100389228,
+                              1.883649089489801,
+                              1.9952623149688797,
+                              2.1134890398366477,
+                              2.23872113856834,
+                              2.371373705661655,
+                              2.511886431509581,
+                              2.6607250597988097,
+                              2.818382931264455,
+                              2.9853826189179604,
+                              3.1622776601683795,
+                              3.3496543915782775,
+                              3.548133892335755,
+                              3.7583740428844434,
+                              3.981071705534973,
+                              4.216965034285822,
+                              4.466835921509633,
+                              4.731512589614805,
+                              5.011872336272725,
+                              5.308844442309884,
+                              5.623413251903491,
+                              5.956621435290106,
+                              6.309573444801933,
+                              6.683439175686149,
+                              7.07945784384138,
+                              7.498942093324558,
+                              7.943282347242818,
+                              8.413951416451951,
+                              8.91250938133746,
+                              9.440608762859236,
+                              10.0
+                            ]
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        "source_identities",
+        {
+          "type": "dict",
+          "items": [
+            [
+              "map",
+              "d241d2cd211f54a808294426693bd0b31e46791a26681c01fffeeeeefbdfac5b:8256cd0f5a136ea9dd304c15a1e60d1e190829c326a8f0d587410a445a412648"
+            ],
+            [
+              "mean_cuts",
+              "95d1cef41c35097341864bae51948a0fd6f7db150908b667ba9e6259974e21fa:4fbf77e9a6fca8d6ead29c702b4cd08370a5d55ca2007cf0318d1c7920c1628a"
+            ],
+            [
+              "r_cuts",
+              "d510f90bd8d241dd36e326f29d2facf31831c4c33492c79b0d38c16ea5db40e3:186ba9d3e6c0892534361aff6a2c62fb0c4fea1f39c3c514da584161ee1e9eb6"
+            ]
+          ]
+        }
+      ],
+      [
+        "figure",
+        "reference_effects_new.pdf"
+      ],
+      [
+        "description",
+        "Equal-reference mean and aspect-ratio landscape with exact cuts."
+      ]
+    ]
+  },
+  "utility_sha256": {
+    "__init__.py": "f94b17dd0d2e756f0c5ac476c4818c010e15bf4efd8de47d92c661e7311fefc2",
+    "appendix_evidence.py": "cfbe1d52448641a94193cd35b59682cdf91d5c72f5507ad17a03d77315818939",
+    "breadth_benchmark.py": "6a12acb4ba6ea9b4ead7237728c337a2bf45f7cf9e17da4f44f3ddcaa515eacb",
+    "breadth_optimum.py": "b2450c754aebf70974c5efdc3539bbbf999fd9778a2229476dd5b2d043dbbe5f",
+    "breadth_transitions.py": "dbd7a7b9ae959cdc4c29870eeb5fa5721819d3f1b27c14049791ad7023882b2a",
+    "compensation_transitions.py": "68cef4a9cef81bd2380ea0639b88bb87010926940348c4272f5dd8a563909649",
+    "config.py": "2551a60b2963ce551928b043aaab556db487c1f4d387631fd7e7f28e5c81b15d",
+    "differing_signal_sweeps.py": "cda44be41295b5b79d2fccefeaaadf4158fb2677fa474d86ebd612a802bb4f31",
+    "exploration.py": "59aed18e606094ae673cee8b1fc79ef34a6d3849c79664b727e88d545ab94521",
+    "incremental_simulation.py": "c118f5696c6d558892be49d356999c5bf61765626df39e0748870f2f7cc57874",
+    "infinity_diagnostics.py": "82698f4bc8293de2215afb49fb852257c54c37635a39cfaab2402202701771b1",
+    "jobs.py": "4bd3b4e2f03dd4c3d40d9b94dc289c00deb17518144a95d6f1a630055a81297a",
+    "landscape_slices.py": "aa19eb6fccbb7ea7bf5894bc83f661a057fbc788fed58f0bf6004b15ede0204c",
+    "optimization.py": "26f1b2314b9bd781d23df44a2284a27f34f8aff6e6294ae9e03690c4c11910d1",
+    "paper_figures.py": "1ac355fb318750e3fbbfee4143181fa5b48fbafaea05ae1d0f398524ece4558c",
+    "parameter_axis.py": "3db54ed073df3895055fad74c3d20616d4e01de6dee7db1c4a672d2230ab36bb",
+    "parameter_planes.py": "d7337d393de09daf059e8df19483ec1df4903d763534f1acbf12759464ad1d1b",
+    "reference_compensation.py": "1225262d4bba467bf9050dbfe103c585aae438464784f967c1cf12c96443d94c",
+    "reference_compensation_grid.py": "6cc2da690121fd5dce3935941eb29284c70f54146f69ceb2c0909901eb82cff0",
+    "result_cache.py": "5d6cd7ec36fd8a4ada299ae9d52bad70d33bf53af7593124dc5471137121e3fe",
+    "ridge_diagnostics.py": "c44898c86f4e1c09e454d349e2d56aac8ef6b2a50a9f2936134238e8f300f329",
+    "simulation.py": "797a34c71e9abb5a310c5ed0417a8b90973f86fe9564558cc368cd59dbaf86fa",
+    "stieltjes.py": "aeaae6b9c8503f420b092299847357cbd02216ee64e7320e36e698ff63140d91",
+    "sweep_transitions.py": "0242affd4418aa39bfab9ed36ac79a5a944edfb79503b347fce95939fb85c433",
+    "theory.py": "f675d390bcf5f05dc32988c3eb664d0734d9a3062995ba0979e807ceb684e9e4",
+    "transition_diagnostics.py": "0076930d735c22029bc9f5c91492fa40f52125c7523f29cc6a0629fef1a6bbc3",
+    "zero_ridge_evidence.py": "408489f0d6e2880502812496a035ec363c350f9a3f71ffeb406709fe04a122bf"
+  },
+  "npz_sha256": "207971107a5b134baf15215d7ac68b6b37c16f33085c06d7eb944f1f01645bb2"
+}

@@ -1,0 +1,706 @@
+{
+  "schema": 1,
+  "results": {
+    "type": "dict",
+    "items": [
+      [
+        "theory",
+        {
+          "type": "dict",
+          "items": [
+            [
+              "config",
+              {
+                "type": "record",
+                "name": "DMSConfig",
+                "fields": {
+                  "type": "dict",
+                  "items": [
+                    [
+                      "q",
+                      20
+                    ],
+                    [
+                      "sigma",
+                      1.0
+                    ],
+                    [
+                      "f_train",
+                      0.1
+                    ],
+                    [
+                      "f_test",
+                      0.2
+                    ],
+                    [
+                      "eta",
+                      0.2
+                    ],
+                    [
+                      "signal_norm",
+                      10.0
+                    ],
+                    [
+                      "F",
+                      0.4
+                    ],
+                    [
+                      "F_test",
+                      0.5
+                    ],
+                    [
+                      "F_neq",
+                      0.2
+                    ],
+                    [
+                      "C_neq",
+                      0.024494897427831782
+                    ],
+                    [
+                      "M_tot",
+                      0.6164414002968976
+                    ],
+                    [
+                      "M_neq",
+                      0.38987177379235854
+                    ],
+                    [
+                      "M_neq_test",
+                      0.7162401831787991
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "slices",
+              {
+                "type": "dict",
+                "items": [
+                  [
+                    "config",
+                    {
+                      "type": "record",
+                      "name": "DMSConfig",
+                      "fields": {
+                        "type": "dict",
+                        "items": [
+                          [
+                            "q",
+                            20
+                          ],
+                          [
+                            "sigma",
+                            1.0
+                          ],
+                          [
+                            "f_train",
+                            0.1
+                          ],
+                          [
+                            "f_test",
+                            0.2
+                          ],
+                          [
+                            "eta",
+                            0.2
+                          ],
+                          [
+                            "signal_norm",
+                            10.0
+                          ],
+                          [
+                            "F",
+                            0.4
+                          ],
+                          [
+                            "F_test",
+                            0.5
+                          ],
+                          [
+                            "F_neq",
+                            0.2
+                          ],
+                          [
+                            "C_neq",
+                            0.024494897427831782
+                          ],
+                          [
+                            "M_tot",
+                            0.6164414002968976
+                          ],
+                          [
+                            "M_neq",
+                            0.38987177379235854
+                          ],
+                          [
+                            "M_neq_test",
+                            0.7162401831787991
+                          ]
+                        ]
+                      }
+                    }
+                  ],
+                  [
+                    "fixed_lambdas",
+                    {
+                      "type": "array",
+                      "key": "array_0000",
+                      "shape": [
+                        5
+                      ],
+                      "dtype": "float64"
+                    }
+                  ],
+                  [
+                    "fixed_rs",
+                    {
+                      "type": "array",
+                      "key": "array_0001",
+                      "shape": [
+                        6
+                      ],
+                      "dtype": "float64"
+                    }
+                  ],
+                  [
+                    "r_grid",
+                    {
+                      "type": "array",
+                      "key": "array_0002",
+                      "shape": [
+                        282
+                      ],
+                      "dtype": "float64"
+                    }
+                  ],
+                  [
+                    "lambda_grid",
+                    {
+                      "type": "array",
+                      "key": "array_0003",
+                      "shape": [
+                        241
+                      ],
+                      "dtype": "float64"
+                    }
+                  ],
+                  [
+                    "R_infinity",
+                    12.663422780479785
+                  ],
+                  [
+                    "fixed_lambda_risk",
+                    {
+                      "type": "array",
+                      "key": "array_0004",
+                      "shape": [
+                        5,
+                        282
+                      ],
+                      "dtype": "float64"
+                    }
+                  ],
+                  [
+                    "fixed_r_risk",
+                    {
+                      "type": "array",
+                      "key": "array_0005",
+                      "shape": [
+                        6,
+                        241
+                      ],
+                      "dtype": "float64"
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              "r",
+              {
+                "type": "array",
+                "key": "array_0006",
+                "shape": [
+                  282
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "ridge",
+              {
+                "type": "array",
+                "key": "array_0007",
+                "shape": [
+                  241
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "risk",
+              {
+                "type": "array",
+                "key": "array_0008",
+                "shape": [
+                  241,
+                  282
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "optimum",
+              {
+                "type": "record",
+                "name": "BoundaryRidgeOptimization",
+                "fields": {
+                  "type": "dict",
+                  "items": [
+                    [
+                      "r_values",
+                      {
+                        "type": "array",
+                        "key": "array_0009",
+                        "shape": [
+                          282
+                        ],
+                        "dtype": "float64"
+                      }
+                    ],
+                    [
+                      "ridge_lambdas",
+                      {
+                        "type": "array",
+                        "key": "array_0010",
+                        "shape": [
+                          282
+                        ],
+                        "dtype": "float64"
+                      }
+                    ],
+                    [
+                      "kappas",
+                      {
+                        "type": "array",
+                        "key": "array_0011",
+                        "shape": [
+                          282
+                        ],
+                        "dtype": "float64"
+                      }
+                    ],
+                    [
+                      "risks",
+                      {
+                        "type": "array",
+                        "key": "array_0012",
+                        "shape": [
+                          282
+                        ],
+                        "dtype": "float64"
+                      }
+                    ],
+                    [
+                      "status",
+                      {
+                        "type": "array",
+                        "key": "array_0013",
+                        "shape": [
+                          282
+                        ],
+                        "dtype": "<U8"
+                      }
+                    ],
+                    [
+                      "zero_slopes",
+                      {
+                        "type": "array",
+                        "key": "array_0014",
+                        "shape": [
+                          282
+                        ],
+                        "dtype": "float64"
+                      }
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "search",
+              {
+                "type": "dict",
+                "items": [
+                  [
+                    "lambda_max",
+                    1000.0
+                  ],
+                  [
+                    "n_grid",
+                    641
+                  ]
+                ]
+              }
+            ],
+            [
+              "slice_optimum",
+              {
+                "type": "record",
+                "name": "BoundaryRidgeOptimization",
+                "fields": {
+                  "type": "dict",
+                  "items": [
+                    [
+                      "r_values",
+                      {
+                        "type": "array",
+                        "key": "array_0015",
+                        "shape": [
+                          6
+                        ],
+                        "dtype": "float64"
+                      }
+                    ],
+                    [
+                      "ridge_lambdas",
+                      {
+                        "type": "array",
+                        "key": "array_0016",
+                        "shape": [
+                          6
+                        ],
+                        "dtype": "float64"
+                      }
+                    ],
+                    [
+                      "kappas",
+                      {
+                        "type": "array",
+                        "key": "array_0017",
+                        "shape": [
+                          6
+                        ],
+                        "dtype": "float64"
+                      }
+                    ],
+                    [
+                      "risks",
+                      {
+                        "type": "array",
+                        "key": "array_0018",
+                        "shape": [
+                          6
+                        ],
+                        "dtype": "float64"
+                      }
+                    ],
+                    [
+                      "status",
+                      {
+                        "type": "array",
+                        "key": "array_0019",
+                        "shape": [
+                          6
+                        ],
+                        "dtype": "<U8"
+                      }
+                    ],
+                    [
+                      "zero_slopes",
+                      {
+                        "type": "array",
+                        "key": "array_0020",
+                        "shape": [
+                          6
+                        ],
+                        "dtype": "float64"
+                      }
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        "theory_id",
+        "8747f9f4da2b592cfd360302e029c64c513a9fe291bbed5b5ffd2d52a6501960:f96af8190465d348cf70e1ea544361a6c941cb5039cab3d489ff38ee45203c74"
+      ],
+      [
+        "transitions",
+        {
+          "type": "dict",
+          "items": [
+            [
+              "jump_mask",
+              {
+                "type": "array",
+                "key": "array_0021",
+                "shape": [
+                  281
+                ],
+                "dtype": "bool"
+              }
+            ],
+            [
+              "barrier_excess",
+              {
+                "type": "array",
+                "key": "array_0022",
+                "shape": [
+                  281,
+                  2
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "reason",
+              {
+                "type": "array",
+                "key": "array_0023",
+                "shape": [
+                  281
+                ],
+                "dtype": "<U32"
+              }
+            ],
+            [
+              "r_intervals",
+              {
+                "type": "array",
+                "key": "array_0024",
+                "shape": [
+                  281,
+                  2
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "n_probe",
+              65
+            ],
+            [
+              "barrier_rtol",
+              1e-08
+            ]
+          ]
+        }
+      ],
+      [
+        "transition_id",
+        "370a85db7e24dec78354cec997a2ce432cae0124421a792867661591ed3ebdaa:43f87e7bfdc56e7e9da4df3f7701dcd70daf59d42e5021fa181b22097df114a5"
+      ],
+      [
+        "simulations",
+        {
+          "type": "dict",
+          "items": []
+        }
+      ],
+      [
+        "simulation_metadata",
+        {
+          "type": "dict",
+          "items": []
+        }
+      ]
+    ]
+  },
+  "metadata": {
+    "type": "dict",
+    "items": [
+      [
+        "settings",
+        {
+          "type": "dict",
+          "items": [
+            [
+              "config",
+              {
+                "type": "dict",
+                "items": [
+                  [
+                    "q",
+                    20
+                  ],
+                  [
+                    "sigma",
+                    1.0
+                  ],
+                  [
+                    "f_train",
+                    0.1
+                  ],
+                  [
+                    "f_test",
+                    0.2
+                  ],
+                  [
+                    "eta",
+                    0.2
+                  ],
+                  [
+                    "signal_norm",
+                    10.0
+                  ],
+                  [
+                    "F",
+                    0.4
+                  ],
+                  [
+                    "F_test",
+                    0.5
+                  ],
+                  [
+                    "F_neq",
+                    0.2
+                  ],
+                  [
+                    "C_neq",
+                    0.024494897427831782
+                  ],
+                  [
+                    "M_tot",
+                    0.6164414002968976
+                  ],
+                  [
+                    "M_neq",
+                    0.38987177379235854
+                  ],
+                  [
+                    "M_neq_test",
+                    0.7162401831787991
+                  ]
+                ]
+              }
+            ],
+            [
+              "controls",
+              {
+                "type": "dict",
+                "items": [
+                  [
+                    "r_grid",
+                    {
+                      "type": "array",
+                      "key": "array_0025",
+                      "shape": [
+                        282
+                      ],
+                      "dtype": "float64"
+                    }
+                  ],
+                  [
+                    "lambda_grid",
+                    {
+                      "type": "array",
+                      "key": "array_0026",
+                      "shape": [
+                        241
+                      ],
+                      "dtype": "float64"
+                    }
+                  ],
+                  [
+                    "fixed_lambdas",
+                    {
+                      "type": "list",
+                      "items": [
+                        0.0001,
+                        0.001,
+                        0.01,
+                        0.1,
+                        1.0
+                      ]
+                    }
+                  ],
+                  [
+                    "fixed_rs",
+                    {
+                      "type": "list",
+                      "items": [
+                        0.5,
+                        1.0,
+                        2.0,
+                        3.0,
+                        4.0,
+                        8.0
+                      ]
+                    }
+                  ],
+                  [
+                    "search",
+                    {
+                      "type": "dict",
+                      "items": [
+                        [
+                          "lambda_max",
+                          1000.0
+                        ],
+                        [
+                          "n_grid",
+                          641
+                        ]
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              "simulation",
+              null
+            ],
+            [
+              "transition",
+              {
+                "type": "dict",
+                "items": [
+                  [
+                    "n_probe",
+                    65
+                  ],
+                  [
+                    "barrier_rtol",
+                    1e-08
+                  ]
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    ]
+  },
+  "utility_sha256": {
+    "__init__.py": "f94b17dd0d2e756f0c5ac476c4818c010e15bf4efd8de47d92c661e7311fefc2",
+    "appendix_evidence.py": "cfbe1d52448641a94193cd35b59682cdf91d5c72f5507ad17a03d77315818939",
+    "compensation_transitions.py": "68cef4a9cef81bd2380ea0639b88bb87010926940348c4272f5dd8a563909649",
+    "config.py": "2551a60b2963ce551928b043aaab556db487c1f4d387631fd7e7f28e5c81b15d",
+    "differing_signal_sweeps.py": "cda44be41295b5b79d2fccefeaaadf4158fb2677fa474d86ebd612a802bb4f31",
+    "exploration.py": "59aed18e606094ae673cee8b1fc79ef34a6d3849c79664b727e88d545ab94521",
+    "incremental_simulation.py": "c118f5696c6d558892be49d356999c5bf61765626df39e0748870f2f7cc57874",
+    "infinity_diagnostics.py": "82698f4bc8293de2215afb49fb852257c54c37635a39cfaab2402202701771b1",
+    "jobs.py": "4bd3b4e2f03dd4c3d40d9b94dc289c00deb17518144a95d6f1a630055a81297a",
+    "landscape_slices.py": "aa19eb6fccbb7ea7bf5894bc83f661a057fbc788fed58f0bf6004b15ede0204c",
+    "optimization.py": "26f1b2314b9bd781d23df44a2284a27f34f8aff6e6294ae9e03690c4c11910d1",
+    "paper_figures.py": "1ac355fb318750e3fbbfee4143181fa5b48fbafaea05ae1d0f398524ece4558c",
+    "parameter_axis.py": "3db54ed073df3895055fad74c3d20616d4e01de6dee7db1c4a672d2230ab36bb",
+    "parameter_planes.py": "d7337d393de09daf059e8df19483ec1df4903d763534f1acbf12759464ad1d1b",
+    "reference_compensation.py": "1225262d4bba467bf9050dbfe103c585aae438464784f967c1cf12c96443d94c",
+    "result_cache.py": "5d6cd7ec36fd8a4ada299ae9d52bad70d33bf53af7593124dc5471137121e3fe",
+    "ridge_diagnostics.py": "c44898c86f4e1c09e454d349e2d56aac8ef6b2a50a9f2936134238e8f300f329",
+    "simulation.py": "797a34c71e9abb5a310c5ed0417a8b90973f86fe9564558cc368cd59dbaf86fa",
+    "stieltjes.py": "aeaae6b9c8503f420b092299847357cbd02216ee64e7320e36e698ff63140d91",
+    "sweep_transitions.py": "0242affd4418aa39bfab9ed36ac79a5a944edfb79503b347fce95939fb85c433",
+    "theory.py": "f675d390bcf5f05dc32988c3eb664d0734d9a3062995ba0979e807ceb684e9e4",
+    "transition_diagnostics.py": "0076930d735c22029bc9f5c91492fa40f52125c7523f29cc6a0629fef1a6bbc3",
+    "zero_ridge_evidence.py": "408489f0d6e2880502812496a035ec363c350f9a3f71ffeb406709fe04a122bf"
+  },
+  "npz_sha256": "05aee3ae9388d38206f944081e86c4ca3235f385cc276ba8be409421e0af1f2c"
+}

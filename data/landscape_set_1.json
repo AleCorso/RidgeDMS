@@ -1,0 +1,2315 @@
+{
+  "schema": 1,
+  "results": {
+    "type": "dict",
+    "items": [
+      [
+        "theory",
+        {
+          "type": "dict",
+          "items": [
+            [
+              "config",
+              {
+                "type": "record",
+                "name": "DMSConfig",
+                "fields": {
+                  "type": "dict",
+                  "items": [
+                    [
+                      "q",
+                      20
+                    ],
+                    [
+                      "sigma",
+                      1.0
+                    ],
+                    [
+                      "f_train",
+                      0.1
+                    ],
+                    [
+                      "f_test",
+                      0.2
+                    ],
+                    [
+                      "eta",
+                      0.2
+                    ],
+                    [
+                      "signal_norm",
+                      10.0
+                    ],
+                    [
+                      "F",
+                      0.4
+                    ],
+                    [
+                      "F_test",
+                      0.4
+                    ],
+                    [
+                      "F_neq",
+                      0.2
+                    ],
+                    [
+                      "C_neq",
+                      0.03
+                    ],
+                    [
+                      "M_tot",
+                      0.12328828005937954
+                    ],
+                    [
+                      "M_neq",
+                      0.19493588689617927
+                    ],
+                    [
+                      "M_neq_test",
+                      0.38987177379235854
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "slices",
+              {
+                "type": "dict",
+                "items": [
+                  [
+                    "config",
+                    {
+                      "type": "record",
+                      "name": "DMSConfig",
+                      "fields": {
+                        "type": "dict",
+                        "items": [
+                          [
+                            "q",
+                            20
+                          ],
+                          [
+                            "sigma",
+                            1.0
+                          ],
+                          [
+                            "f_train",
+                            0.1
+                          ],
+                          [
+                            "f_test",
+                            0.2
+                          ],
+                          [
+                            "eta",
+                            0.2
+                          ],
+                          [
+                            "signal_norm",
+                            10.0
+                          ],
+                          [
+                            "F",
+                            0.4
+                          ],
+                          [
+                            "F_test",
+                            0.4
+                          ],
+                          [
+                            "F_neq",
+                            0.2
+                          ],
+                          [
+                            "C_neq",
+                            0.03
+                          ],
+                          [
+                            "M_tot",
+                            0.12328828005937954
+                          ],
+                          [
+                            "M_neq",
+                            0.19493588689617927
+                          ],
+                          [
+                            "M_neq_test",
+                            0.38987177379235854
+                          ]
+                        ]
+                      }
+                    }
+                  ],
+                  [
+                    "fixed_lambdas",
+                    {
+                      "type": "array",
+                      "key": "array_0000",
+                      "shape": [
+                        5
+                      ],
+                      "dtype": "float64"
+                    }
+                  ],
+                  [
+                    "fixed_rs",
+                    {
+                      "type": "array",
+                      "key": "array_0001",
+                      "shape": [
+                        6
+                      ],
+                      "dtype": "float64"
+                    }
+                  ],
+                  [
+                    "r_grid",
+                    {
+                      "type": "array",
+                      "key": "array_0002",
+                      "shape": [
+                        282
+                      ],
+                      "dtype": "float64"
+                    }
+                  ],
+                  [
+                    "lambda_grid",
+                    {
+                      "type": "array",
+                      "key": "array_0003",
+                      "shape": [
+                        241
+                      ],
+                      "dtype": "float64"
+                    }
+                  ],
+                  [
+                    "R_infinity",
+                    9.354238611347153
+                  ],
+                  [
+                    "fixed_lambda_risk",
+                    {
+                      "type": "array",
+                      "key": "array_0004",
+                      "shape": [
+                        5,
+                        282
+                      ],
+                      "dtype": "float64"
+                    }
+                  ],
+                  [
+                    "fixed_r_risk",
+                    {
+                      "type": "array",
+                      "key": "array_0005",
+                      "shape": [
+                        6,
+                        241
+                      ],
+                      "dtype": "float64"
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              "r",
+              {
+                "type": "array",
+                "key": "array_0006",
+                "shape": [
+                  282
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "ridge",
+              {
+                "type": "array",
+                "key": "array_0007",
+                "shape": [
+                  241
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "risk",
+              {
+                "type": "array",
+                "key": "array_0008",
+                "shape": [
+                  241,
+                  282
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "optimum",
+              {
+                "type": "record",
+                "name": "BoundaryRidgeOptimization",
+                "fields": {
+                  "type": "dict",
+                  "items": [
+                    [
+                      "r_values",
+                      {
+                        "type": "array",
+                        "key": "array_0009",
+                        "shape": [
+                          282
+                        ],
+                        "dtype": "float64"
+                      }
+                    ],
+                    [
+                      "ridge_lambdas",
+                      {
+                        "type": "array",
+                        "key": "array_0010",
+                        "shape": [
+                          282
+                        ],
+                        "dtype": "float64"
+                      }
+                    ],
+                    [
+                      "kappas",
+                      {
+                        "type": "array",
+                        "key": "array_0011",
+                        "shape": [
+                          282
+                        ],
+                        "dtype": "float64"
+                      }
+                    ],
+                    [
+                      "risks",
+                      {
+                        "type": "array",
+                        "key": "array_0012",
+                        "shape": [
+                          282
+                        ],
+                        "dtype": "float64"
+                      }
+                    ],
+                    [
+                      "status",
+                      {
+                        "type": "array",
+                        "key": "array_0013",
+                        "shape": [
+                          282
+                        ],
+                        "dtype": "<U8"
+                      }
+                    ],
+                    [
+                      "zero_slopes",
+                      {
+                        "type": "array",
+                        "key": "array_0014",
+                        "shape": [
+                          282
+                        ],
+                        "dtype": "float64"
+                      }
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "search",
+              {
+                "type": "dict",
+                "items": [
+                  [
+                    "lambda_max",
+                    1000.0
+                  ],
+                  [
+                    "n_grid",
+                    641
+                  ]
+                ]
+              }
+            ],
+            [
+              "slice_optimum",
+              {
+                "type": "record",
+                "name": "BoundaryRidgeOptimization",
+                "fields": {
+                  "type": "dict",
+                  "items": [
+                    [
+                      "r_values",
+                      {
+                        "type": "array",
+                        "key": "array_0015",
+                        "shape": [
+                          6
+                        ],
+                        "dtype": "float64"
+                      }
+                    ],
+                    [
+                      "ridge_lambdas",
+                      {
+                        "type": "array",
+                        "key": "array_0016",
+                        "shape": [
+                          6
+                        ],
+                        "dtype": "float64"
+                      }
+                    ],
+                    [
+                      "kappas",
+                      {
+                        "type": "array",
+                        "key": "array_0017",
+                        "shape": [
+                          6
+                        ],
+                        "dtype": "float64"
+                      }
+                    ],
+                    [
+                      "risks",
+                      {
+                        "type": "array",
+                        "key": "array_0018",
+                        "shape": [
+                          6
+                        ],
+                        "dtype": "float64"
+                      }
+                    ],
+                    [
+                      "status",
+                      {
+                        "type": "array",
+                        "key": "array_0019",
+                        "shape": [
+                          6
+                        ],
+                        "dtype": "<U8"
+                      }
+                    ],
+                    [
+                      "zero_slopes",
+                      {
+                        "type": "array",
+                        "key": "array_0020",
+                        "shape": [
+                          6
+                        ],
+                        "dtype": "float64"
+                      }
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        "theory_id",
+        "5351249583395982273905f1c851bf23c06ae944486370d09009ba712008f44c:37456256bdcf59c95df922597b5f5cc0a3eb92db756f91b5b3195491d25b2392"
+      ],
+      [
+        "transitions",
+        {
+          "type": "dict",
+          "items": [
+            [
+              "jump_mask",
+              {
+                "type": "array",
+                "key": "array_0021",
+                "shape": [
+                  281
+                ],
+                "dtype": "bool"
+              }
+            ],
+            [
+              "barrier_excess",
+              {
+                "type": "array",
+                "key": "array_0022",
+                "shape": [
+                  281,
+                  2
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "reason",
+              {
+                "type": "array",
+                "key": "array_0023",
+                "shape": [
+                  281
+                ],
+                "dtype": "<U32"
+              }
+            ],
+            [
+              "r_intervals",
+              {
+                "type": "array",
+                "key": "array_0024",
+                "shape": [
+                  281,
+                  2
+                ],
+                "dtype": "float64"
+              }
+            ],
+            [
+              "n_probe",
+              65
+            ],
+            [
+              "barrier_rtol",
+              1e-08
+            ]
+          ]
+        }
+      ],
+      [
+        "transition_id",
+        "008f50195dabe3c9973bc14fbdd54c57a7b8c2e6561e86d1c3d0372c6e65fbed:1595663b87683b04d5469d1b307f113af7b83fb05978a413e4afb05af53d31a0"
+      ],
+      [
+        "simulations",
+        {
+          "type": "dict",
+          "items": [
+            [
+              "fixed_lambda",
+              {
+                "type": "record",
+                "name": "GRJobResult",
+                "fields": {
+                  "type": "dict",
+                  "items": [
+                    [
+                      "data",
+                      {
+                        "type": "array",
+                        "key": "array_0025",
+                        "shape": [
+                          5,
+                          20,
+                          3
+                        ],
+                        "dtype": "float64"
+                      }
+                    ],
+                    [
+                      "ridge_lambdas",
+                      {
+                        "type": "array",
+                        "key": "array_0026",
+                        "shape": [
+                          5
+                        ],
+                        "dtype": "float64"
+                      }
+                    ],
+                    [
+                      "config",
+                      {
+                        "type": "record",
+                        "name": "DMSConfig",
+                        "fields": {
+                          "type": "dict",
+                          "items": [
+                            [
+                              "q",
+                              20
+                            ],
+                            [
+                              "sigma",
+                              1.0
+                            ],
+                            [
+                              "f_train",
+                              0.1
+                            ],
+                            [
+                              "f_test",
+                              0.2
+                            ],
+                            [
+                              "eta",
+                              0.2
+                            ],
+                            [
+                              "signal_norm",
+                              10.0
+                            ],
+                            [
+                              "F",
+                              0.4
+                            ],
+                            [
+                              "F_test",
+                              0.4
+                            ],
+                            [
+                              "F_neq",
+                              0.2
+                            ],
+                            [
+                              "C_neq",
+                              0.03
+                            ],
+                            [
+                              "M_tot",
+                              0.12328828005937954
+                            ],
+                            [
+                              "M_neq",
+                              0.19493588689617927
+                            ],
+                            [
+                              "M_neq_test",
+                              0.38987177379235854
+                            ]
+                          ]
+                        }
+                      }
+                    ],
+                    [
+                      "measured_parameters",
+                      {
+                        "type": "tuple",
+                        "items": [
+                          {
+                            "type": "dict",
+                            "items": [
+                              [
+                                "q",
+                                20
+                              ],
+                              [
+                                "sigma",
+                                1.0
+                              ],
+                              [
+                                "f_train",
+                                0.1
+                              ],
+                              [
+                                "f_test",
+                                0.2
+                              ],
+                              [
+                                "eta",
+                                0.2
+                              ],
+                              [
+                                "signal_norm",
+                                9.999999999999998
+                              ],
+                              [
+                                "F",
+                                0.40000000000000036
+                              ],
+                              [
+                                "F_test",
+                                0.4000000000000001
+                              ],
+                              [
+                                "F_neq",
+                                0.20000000000000018
+                              ],
+                              [
+                                "C_neq",
+                                0.030000000000000016
+                              ],
+                              [
+                                "M_tot",
+                                0.12328828005937975
+                              ],
+                              [
+                                "M_neq",
+                                0.19493588689617927
+                              ],
+                              [
+                                "M_neq_test",
+                                0.3898717737923584
+                              ],
+                              [
+                                "L",
+                                15
+                              ],
+                              [
+                                "changed_sites",
+                                3
+                              ]
+                            ]
+                          },
+                          {
+                            "type": "dict",
+                            "items": [
+                              [
+                                "q",
+                                20
+                              ],
+                              [
+                                "sigma",
+                                1.0
+                              ],
+                              [
+                                "f_train",
+                                0.1
+                              ],
+                              [
+                                "f_test",
+                                0.2
+                              ],
+                              [
+                                "eta",
+                                0.2
+                              ],
+                              [
+                                "signal_norm",
+                                9.999999999999998
+                              ],
+                              [
+                                "F",
+                                0.4000000000000003
+                              ],
+                              [
+                                "F_test",
+                                0.40000000000000013
+                              ],
+                              [
+                                "F_neq",
+                                0.20000000000000015
+                              ],
+                              [
+                                "C_neq",
+                                0.02999999999999995
+                              ],
+                              [
+                                "M_tot",
+                                0.1232882800593797
+                              ],
+                              [
+                                "M_neq",
+                                0.19493588689617927
+                              ],
+                              [
+                                "M_neq_test",
+                                0.3898717737923586
+                              ],
+                              [
+                                "L",
+                                15
+                              ],
+                              [
+                                "changed_sites",
+                                3
+                              ]
+                            ]
+                          },
+                          {
+                            "type": "dict",
+                            "items": [
+                              [
+                                "q",
+                                20
+                              ],
+                              [
+                                "sigma",
+                                1.0
+                              ],
+                              [
+                                "f_train",
+                                0.1
+                              ],
+                              [
+                                "f_test",
+                                0.2
+                              ],
+                              [
+                                "eta",
+                                0.2
+                              ],
+                              [
+                                "signal_norm",
+                                9.999999999999998
+                              ],
+                              [
+                                "F",
+                                0.40000000000000013
+                              ],
+                              [
+                                "F_test",
+                                0.40000000000000024
+                              ],
+                              [
+                                "F_neq",
+                                0.20000000000000004
+                              ],
+                              [
+                                "C_neq",
+                                0.03000000000000009
+                              ],
+                              [
+                                "M_tot",
+                                0.12328828005937975
+                              ],
+                              [
+                                "M_neq",
+                                0.19493588689617947
+                              ],
+                              [
+                                "M_neq_test",
+                                0.3898717737923586
+                              ],
+                              [
+                                "L",
+                                20
+                              ],
+                              [
+                                "changed_sites",
+                                4
+                              ]
+                            ]
+                          },
+                          {
+                            "type": "dict",
+                            "items": [
+                              [
+                                "q",
+                                20
+                              ],
+                              [
+                                "sigma",
+                                1.0
+                              ],
+                              [
+                                "f_train",
+                                0.1
+                              ],
+                              [
+                                "f_test",
+                                0.2
+                              ],
+                              [
+                                "eta",
+                                0.2
+                              ],
+                              [
+                                "signal_norm",
+                                10.0
+                              ],
+                              [
+                                "F",
+                                0.4
+                              ],
+                              [
+                                "F_test",
+                                0.4
+                              ],
+                              [
+                                "F_neq",
+                                0.19999999999999998
+                              ],
+                              [
+                                "C_neq",
+                                0.02999999999999995
+                              ],
+                              [
+                                "M_tot",
+                                0.12328828005937965
+                              ],
+                              [
+                                "M_neq",
+                                0.19493588689617927
+                              ],
+                              [
+                                "M_neq_test",
+                                0.3898717737923586
+                              ],
+                              [
+                                "L",
+                                25
+                              ],
+                              [
+                                "changed_sites",
+                                5
+                              ]
+                            ]
+                          },
+                          {
+                            "type": "dict",
+                            "items": [
+                              [
+                                "q",
+                                20
+                              ],
+                              [
+                                "sigma",
+                                1.0
+                              ],
+                              [
+                                "f_train",
+                                0.1
+                              ],
+                              [
+                                "f_test",
+                                0.2
+                              ],
+                              [
+                                "eta",
+                                0.2
+                              ],
+                              [
+                                "signal_norm",
+                                10.0
+                              ],
+                              [
+                                "F",
+                                0.40000000000000024
+                              ],
+                              [
+                                "F_test",
+                                0.40000000000000013
+                              ],
+                              [
+                                "F_neq",
+                                0.20000000000000023
+                              ],
+                              [
+                                "C_neq",
+                                0.030000000000000002
+                              ],
+                              [
+                                "M_tot",
+                                0.12328828005937932
+                              ],
+                              [
+                                "M_neq",
+                                0.1949358868961791
+                              ],
+                              [
+                                "M_neq_test",
+                                0.3898717737923585
+                              ],
+                              [
+                                "L",
+                                30
+                              ],
+                              [
+                                "changed_sites",
+                                6
+                              ]
+                            ]
+                          },
+                          {
+                            "type": "dict",
+                            "items": [
+                              [
+                                "q",
+                                20
+                              ],
+                              [
+                                "sigma",
+                                1.0
+                              ],
+                              [
+                                "f_train",
+                                0.1
+                              ],
+                              [
+                                "f_test",
+                                0.2
+                              ],
+                              [
+                                "eta",
+                                0.2
+                              ],
+                              [
+                                "signal_norm",
+                                9.999999999999998
+                              ],
+                              [
+                                "F",
+                                0.40000000000000024
+                              ],
+                              [
+                                "F_test",
+                                0.40000000000000024
+                              ],
+                              [
+                                "F_neq",
+                                0.20000000000000015
+                              ],
+                              [
+                                "C_neq",
+                                0.03000000000000008
+                              ],
+                              [
+                                "M_tot",
+                                0.1232882800593797
+                              ],
+                              [
+                                "M_neq",
+                                0.19493588689617952
+                              ],
+                              [
+                                "M_neq_test",
+                                0.3898717737923589
+                              ],
+                              [
+                                "L",
+                                35
+                              ],
+                              [
+                                "changed_sites",
+                                7
+                              ]
+                            ]
+                          },
+                          {
+                            "type": "dict",
+                            "items": [
+                              [
+                                "q",
+                                20
+                              ],
+                              [
+                                "sigma",
+                                1.0
+                              ],
+                              [
+                                "f_train",
+                                0.1
+                              ],
+                              [
+                                "f_test",
+                                0.2
+                              ],
+                              [
+                                "eta",
+                                0.2
+                              ],
+                              [
+                                "signal_norm",
+                                10.0
+                              ],
+                              [
+                                "F",
+                                0.40000000000000013
+                              ],
+                              [
+                                "F_test",
+                                0.4
+                              ],
+                              [
+                                "F_neq",
+                                0.20000000000000007
+                              ],
+                              [
+                                "C_neq",
+                                0.029999999999999985
+                              ],
+                              [
+                                "M_tot",
+                                0.12328828005937983
+                              ],
+                              [
+                                "M_neq",
+                                0.19493588689617922
+                              ],
+                              [
+                                "M_neq_test",
+                                0.3898717737923583
+                              ],
+                              [
+                                "L",
+                                45
+                              ],
+                              [
+                                "changed_sites",
+                                9
+                              ]
+                            ]
+                          },
+                          {
+                            "type": "dict",
+                            "items": [
+                              [
+                                "q",
+                                20
+                              ],
+                              [
+                                "sigma",
+                                1.0
+                              ],
+                              [
+                                "f_train",
+                                0.1
+                              ],
+                              [
+                                "f_test",
+                                0.2
+                              ],
+                              [
+                                "eta",
+                                0.2
+                              ],
+                              [
+                                "signal_norm",
+                                9.999999999999998
+                              ],
+                              [
+                                "F",
+                                0.40000000000000024
+                              ],
+                              [
+                                "F_test",
+                                0.40000000000000036
+                              ],
+                              [
+                                "F_neq",
+                                0.2000000000000002
+                              ],
+                              [
+                                "C_neq",
+                                0.03000000000000007
+                              ],
+                              [
+                                "M_tot",
+                                0.12328828005937993
+                              ],
+                              [
+                                "M_neq",
+                                0.19493588689617955
+                              ],
+                              [
+                                "M_neq_test",
+                                0.3898717737923588
+                              ],
+                              [
+                                "L",
+                                55
+                              ],
+                              [
+                                "changed_sites",
+                                11
+                              ]
+                            ]
+                          },
+                          {
+                            "type": "dict",
+                            "items": [
+                              [
+                                "q",
+                                20
+                              ],
+                              [
+                                "sigma",
+                                1.0
+                              ],
+                              [
+                                "f_train",
+                                0.1
+                              ],
+                              [
+                                "f_test",
+                                0.2
+                              ],
+                              [
+                                "eta",
+                                0.2
+                              ],
+                              [
+                                "signal_norm",
+                                10.0
+                              ],
+                              [
+                                "F",
+                                0.40000000000000024
+                              ],
+                              [
+                                "F_test",
+                                0.40000000000000024
+                              ],
+                              [
+                                "F_neq",
+                                0.20000000000000012
+                              ],
+                              [
+                                "C_neq",
+                                0.029999999999999943
+                              ],
+                              [
+                                "M_tot",
+                                0.12328828005937965
+                              ],
+                              [
+                                "M_neq",
+                                0.19493588689617944
+                              ],
+                              [
+                                "M_neq_test",
+                                0.3898717737923585
+                              ],
+                              [
+                                "L",
+                                65
+                              ],
+                              [
+                                "changed_sites",
+                                13
+                              ]
+                            ]
+                          },
+                          {
+                            "type": "dict",
+                            "items": [
+                              [
+                                "q",
+                                20
+                              ],
+                              [
+                                "sigma",
+                                1.0
+                              ],
+                              [
+                                "f_train",
+                                0.1
+                              ],
+                              [
+                                "f_test",
+                                0.2
+                              ],
+                              [
+                                "eta",
+                                0.2
+                              ],
+                              [
+                                "signal_norm",
+                                10.0
+                              ],
+                              [
+                                "F",
+                                0.4
+                              ],
+                              [
+                                "F_test",
+                                0.39999999999999997
+                              ],
+                              [
+                                "F_neq",
+                                0.2
+                              ],
+                              [
+                                "C_neq",
+                                0.030000000000000013
+                              ],
+                              [
+                                "M_tot",
+                                0.12328828005937974
+                              ],
+                              [
+                                "M_neq",
+                                0.19493588689617922
+                              ],
+                              [
+                                "M_neq_test",
+                                0.38987177379235854
+                              ],
+                              [
+                                "L",
+                                80
+                              ],
+                              [
+                                "changed_sites",
+                                16
+                              ]
+                            ]
+                          },
+                          {
+                            "type": "dict",
+                            "items": [
+                              [
+                                "q",
+                                20
+                              ],
+                              [
+                                "sigma",
+                                1.0
+                              ],
+                              [
+                                "f_train",
+                                0.1
+                              ],
+                              [
+                                "f_test",
+                                0.2
+                              ],
+                              [
+                                "eta",
+                                0.2
+                              ],
+                              [
+                                "signal_norm",
+                                10.0
+                              ],
+                              [
+                                "F",
+                                0.4
+                              ],
+                              [
+                                "F_test",
+                                0.3999999999999999
+                              ],
+                              [
+                                "F_neq",
+                                0.2
+                              ],
+                              [
+                                "C_neq",
+                                0.029999999999999978
+                              ],
+                              [
+                                "M_tot",
+                                0.12328828005937986
+                              ],
+                              [
+                                "M_neq",
+                                0.19493588689617938
+                              ],
+                              [
+                                "M_neq_test",
+                                0.38987177379235843
+                              ],
+                              [
+                                "L",
+                                95
+                              ],
+                              [
+                                "changed_sites",
+                                19
+                              ]
+                            ]
+                          },
+                          {
+                            "type": "dict",
+                            "items": [
+                              [
+                                "q",
+                                20
+                              ],
+                              [
+                                "sigma",
+                                1.0
+                              ],
+                              [
+                                "f_train",
+                                0.1
+                              ],
+                              [
+                                "f_test",
+                                0.2
+                              ],
+                              [
+                                "eta",
+                                0.2
+                              ],
+                              [
+                                "signal_norm",
+                                10.0
+                              ],
+                              [
+                                "F",
+                                0.40000000000000013
+                              ],
+                              [
+                                "F_test",
+                                0.40000000000000013
+                              ],
+                              [
+                                "F_neq",
+                                0.20000000000000004
+                              ],
+                              [
+                                "C_neq",
+                                0.030000000000000002
+                              ],
+                              [
+                                "M_tot",
+                                0.1232882800593796
+                              ],
+                              [
+                                "M_neq",
+                                0.19493588689617922
+                              ],
+                              [
+                                "M_neq_test",
+                                0.38987177379235866
+                              ],
+                              [
+                                "L",
+                                115
+                              ],
+                              [
+                                "changed_sites",
+                                23
+                              ]
+                            ]
+                          },
+                          {
+                            "type": "dict",
+                            "items": [
+                              [
+                                "q",
+                                20
+                              ],
+                              [
+                                "sigma",
+                                1.0
+                              ],
+                              [
+                                "f_train",
+                                0.1
+                              ],
+                              [
+                                "f_test",
+                                0.2
+                              ],
+                              [
+                                "eta",
+                                0.2
+                              ],
+                              [
+                                "signal_norm",
+                                10.0
+                              ],
+                              [
+                                "F",
+                                0.40000000000000036
+                              ],
+                              [
+                                "F_test",
+                                0.40000000000000036
+                              ],
+                              [
+                                "F_neq",
+                                0.20000000000000018
+                              ],
+                              [
+                                "C_neq",
+                                0.03000000000000002
+                              ],
+                              [
+                                "M_tot",
+                                0.12328828005937968
+                              ],
+                              [
+                                "M_neq",
+                                0.19493588689617933
+                              ],
+                              [
+                                "M_neq_test",
+                                0.3898717737923587
+                              ],
+                              [
+                                "L",
+                                140
+                              ],
+                              [
+                                "changed_sites",
+                                28
+                              ]
+                            ]
+                          },
+                          {
+                            "type": "dict",
+                            "items": [
+                              [
+                                "q",
+                                20
+                              ],
+                              [
+                                "sigma",
+                                1.0
+                              ],
+                              [
+                                "f_train",
+                                0.1
+                              ],
+                              [
+                                "f_test",
+                                0.2
+                              ],
+                              [
+                                "eta",
+                                0.2
+                              ],
+                              [
+                                "signal_norm",
+                                10.0
+                              ],
+                              [
+                                "F",
+                                0.40000000000000013
+                              ],
+                              [
+                                "F_test",
+                                0.4000000000000001
+                              ],
+                              [
+                                "F_neq",
+                                0.20000000000000004
+                              ],
+                              [
+                                "C_neq",
+                                0.030000000000000006
+                              ],
+                              [
+                                "M_tot",
+                                0.12328828005937963
+                              ],
+                              [
+                                "M_neq",
+                                0.19493588689617936
+                              ],
+                              [
+                                "M_neq_test",
+                                0.38987177379235843
+                              ],
+                              [
+                                "L",
+                                165
+                              ],
+                              [
+                                "changed_sites",
+                                33
+                              ]
+                            ]
+                          },
+                          {
+                            "type": "dict",
+                            "items": [
+                              [
+                                "q",
+                                20
+                              ],
+                              [
+                                "sigma",
+                                1.0
+                              ],
+                              [
+                                "f_train",
+                                0.1
+                              ],
+                              [
+                                "f_test",
+                                0.2
+                              ],
+                              [
+                                "eta",
+                                0.2
+                              ],
+                              [
+                                "signal_norm",
+                                9.999999999999998
+                              ],
+                              [
+                                "F",
+                                0.4
+                              ],
+                              [
+                                "F_test",
+                                0.40000000000000013
+                              ],
+                              [
+                                "F_neq",
+                                0.19999999999999998
+                              ],
+                              [
+                                "C_neq",
+                                0.02999999999999994
+                              ],
+                              [
+                                "M_tot",
+                                0.12328828005937947
+                              ],
+                              [
+                                "M_neq",
+                                0.19493588689617936
+                              ],
+                              [
+                                "M_neq_test",
+                                0.3898717737923587
+                              ],
+                              [
+                                "L",
+                                200
+                              ],
+                              [
+                                "changed_sites",
+                                40
+                              ]
+                            ]
+                          },
+                          {
+                            "type": "dict",
+                            "items": [
+                              [
+                                "q",
+                                20
+                              ],
+                              [
+                                "sigma",
+                                1.0
+                              ],
+                              [
+                                "f_train",
+                                0.1
+                              ],
+                              [
+                                "f_test",
+                                0.2
+                              ],
+                              [
+                                "eta",
+                                0.2
+                              ],
+                              [
+                                "signal_norm",
+                                10.0
+                              ],
+                              [
+                                "F",
+                                0.4
+                              ],
+                              [
+                                "F_test",
+                                0.4
+                              ],
+                              [
+                                "F_neq",
+                                0.19999999999999998
+                              ],
+                              [
+                                "C_neq",
+                                0.029999999999999926
+                              ],
+                              [
+                                "M_tot",
+                                0.12328828005937897
+                              ],
+                              [
+                                "M_neq",
+                                0.19493588689617894
+                              ],
+                              [
+                                "M_neq_test",
+                                0.3898717737923585
+                              ],
+                              [
+                                "L",
+                                240
+                              ],
+                              [
+                                "changed_sites",
+                                48
+                              ]
+                            ]
+                          },
+                          {
+                            "type": "dict",
+                            "items": [
+                              [
+                                "q",
+                                20
+                              ],
+                              [
+                                "sigma",
+                                1.0
+                              ],
+                              [
+                                "f_train",
+                                0.1
+                              ],
+                              [
+                                "f_test",
+                                0.2
+                              ],
+                              [
+                                "eta",
+                                0.2
+                              ],
+                              [
+                                "signal_norm",
+                                10.0
+                              ],
+                              [
+                                "F",
+                                0.39999999999999997
+                              ],
+                              [
+                                "F_test",
+                                0.39999999999999997
+                              ],
+                              [
+                                "F_neq",
+                                0.19999999999999993
+                              ],
+                              [
+                                "C_neq",
+                                0.030000000000000013
+                              ],
+                              [
+                                "M_tot",
+                                0.12328828005937974
+                              ],
+                              [
+                                "M_neq",
+                                0.19493588689617922
+                              ],
+                              [
+                                "M_neq_test",
+                                0.3898717737923586
+                              ],
+                              [
+                                "L",
+                                285
+                              ],
+                              [
+                                "changed_sites",
+                                57
+                              ]
+                            ]
+                          },
+                          {
+                            "type": "dict",
+                            "items": [
+                              [
+                                "q",
+                                20
+                              ],
+                              [
+                                "sigma",
+                                1.0
+                              ],
+                              [
+                                "f_train",
+                                0.1
+                              ],
+                              [
+                                "f_test",
+                                0.2
+                              ],
+                              [
+                                "eta",
+                                0.2
+                              ],
+                              [
+                                "signal_norm",
+                                10.0
+                              ],
+                              [
+                                "F",
+                                0.40000000000000024
+                              ],
+                              [
+                                "F_test",
+                                0.40000000000000013
+                              ],
+                              [
+                                "F_neq",
+                                0.20000000000000018
+                              ],
+                              [
+                                "C_neq",
+                                0.03000000000000009
+                              ],
+                              [
+                                "M_tot",
+                                0.12328828005937983
+                              ],
+                              [
+                                "M_neq",
+                                0.19493588689617944
+                              ],
+                              [
+                                "M_neq_test",
+                                0.38987177379235866
+                              ],
+                              [
+                                "L",
+                                345
+                              ],
+                              [
+                                "changed_sites",
+                                69
+                              ]
+                            ]
+                          },
+                          {
+                            "type": "dict",
+                            "items": [
+                              [
+                                "q",
+                                20
+                              ],
+                              [
+                                "sigma",
+                                1.0
+                              ],
+                              [
+                                "f_train",
+                                0.1
+                              ],
+                              [
+                                "f_test",
+                                0.2
+                              ],
+                              [
+                                "eta",
+                                0.2
+                              ],
+                              [
+                                "signal_norm",
+                                10.0
+                              ],
+                              [
+                                "F",
+                                0.40000000000000013
+                              ],
+                              [
+                                "F_test",
+                                0.4000000000000002
+                              ],
+                              [
+                                "F_neq",
+                                0.20000000000000012
+                              ],
+                              [
+                                "C_neq",
+                                0.030000000000000013
+                              ],
+                              [
+                                "M_tot",
+                                0.12328828005937978
+                              ],
+                              [
+                                "M_neq",
+                                0.1949358868961793
+                              ],
+                              [
+                                "M_neq_test",
+                                0.3898717737923586
+                              ],
+                              [
+                                "L",
+                                415
+                              ],
+                              [
+                                "changed_sites",
+                                83
+                              ]
+                            ]
+                          },
+                          {
+                            "type": "dict",
+                            "items": [
+                              [
+                                "q",
+                                20
+                              ],
+                              [
+                                "sigma",
+                                1.0
+                              ],
+                              [
+                                "f_train",
+                                0.1
+                              ],
+                              [
+                                "f_test",
+                                0.2
+                              ],
+                              [
+                                "eta",
+                                0.2
+                              ],
+                              [
+                                "signal_norm",
+                                10.0
+                              ],
+                              [
+                                "F",
+                                0.40000000000000013
+                              ],
+                              [
+                                "F_test",
+                                0.4000000000000001
+                              ],
+                              [
+                                "F_neq",
+                                0.2000000000000001
+                              ],
+                              [
+                                "C_neq",
+                                0.03000000000000006
+                              ],
+                              [
+                                "M_tot",
+                                0.12328828005937968
+                              ],
+                              [
+                                "M_neq",
+                                0.19493588689617938
+                              ],
+                              [
+                                "M_neq_test",
+                                0.38987177379235866
+                              ],
+                              [
+                                "L",
+                                500
+                              ],
+                              [
+                                "changed_sites",
+                                100
+                              ]
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    [
+                      "sizes",
+                      {
+                        "type": "array",
+                        "key": "array_0027",
+                        "shape": [
+                          20,
+                          2
+                        ],
+                        "dtype": "int64"
+                      }
+                    ],
+                    [
+                      "seconds",
+                      220.10448249312321
+                    ],
+                    [
+                      "requested_r",
+                      {
+                        "type": "array",
+                        "key": "array_0028",
+                        "shape": [
+                          20
+                        ],
+                        "dtype": "float64"
+                      }
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        "simulation_metadata",
+        {
+          "type": "dict",
+          "items": [
+            [
+              "signature",
+              "{\"lambda_grid\": null, \"plan\": {\"fixed_lambda\": {\"budget\": 1000, \"config\": {\"C_neq\": 0.03, \"F\": 0.4, \"F_neq\": 0.2, \"F_test\": 0.4, \"M_neq\": 0.19493588689617927, \"M_neq_test\": 0.38987177379235854, \"M_tot\": 0.12328828005937954, \"eta\": 0.2, \"f_test\": 0.2, \"f_train\": 0.1, \"q\": 20, \"sigma\": 1.0, \"signal_norm\": 10.0}, \"r_values\": [0.1, 0.14384498882876628, 0.20691380811147897, 0.29763514416313175, 0.42813323987193935, 0.6158482110660264, 0.8858667904100825, 1.2742749857031335, 1.8329807108324356, 2.636650898730358, 3.79269019073225, 5.455594781168517, 7.847599703514611, 11.288378916846883, 16.23776739188721, 23.357214690901213, 33.59818286283781, 48.32930238571752, 69.51927961775606, 100.0], \"ridge_lambdas\": [0.0001, 0.001, 0.01, 0.1, 1.0], \"seed\": 17, \"trials\": 300}}, \"stream_scheme\": \"per-r-seedsequence-v1\"}"
+            ],
+            [
+              "cache_ids",
+              {
+                "type": "dict",
+                "items": [
+                  [
+                    "fixed_lambda",
+                    "112e81f3f621d5bd717fa90a9dd209d076bfc6c69c0189421216bda0d462bf7e:b473c2b14388e1fe1168af41605ab8048f610527fa1fa6ee51b55f61668a8573"
+                  ]
+                ]
+              }
+            ],
+            [
+              "trial_reuse",
+              {
+                "type": "dict",
+                "items": [
+                  [
+                    "fixed_lambda",
+                    {
+                      "type": "dict",
+                      "items": [
+                        [
+                          "reused_trials_per_r",
+                          {
+                            "type": "array",
+                            "key": "array_0029",
+                            "shape": [
+                              20
+                            ],
+                            "dtype": "int64"
+                          }
+                        ],
+                        [
+                          "new_trials_per_r",
+                          {
+                            "type": "array",
+                            "key": "array_0030",
+                            "shape": [
+                              20
+                            ],
+                            "dtype": "int64"
+                          }
+                        ],
+                        [
+                          "requested_trials",
+                          300
+                        ],
+                        [
+                          "legacy_aggregate",
+                          false
+                        ],
+                        [
+                          "stream_scheme",
+                          "per-r-seedsequence-v1"
+                        ]
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    ]
+  },
+  "metadata": {
+    "type": "dict",
+    "items": [
+      [
+        "settings",
+        {
+          "type": "dict",
+          "items": [
+            [
+              "config",
+              {
+                "type": "dict",
+                "items": [
+                  [
+                    "q",
+                    20
+                  ],
+                  [
+                    "sigma",
+                    1.0
+                  ],
+                  [
+                    "f_train",
+                    0.1
+                  ],
+                  [
+                    "f_test",
+                    0.2
+                  ],
+                  [
+                    "eta",
+                    0.2
+                  ],
+                  [
+                    "signal_norm",
+                    10.0
+                  ],
+                  [
+                    "F",
+                    0.4
+                  ],
+                  [
+                    "F_test",
+                    0.4
+                  ],
+                  [
+                    "F_neq",
+                    0.2
+                  ],
+                  [
+                    "C_neq",
+                    0.03
+                  ],
+                  [
+                    "M_tot",
+                    0.12328828005937954
+                  ],
+                  [
+                    "M_neq",
+                    0.19493588689617927
+                  ],
+                  [
+                    "M_neq_test",
+                    0.38987177379235854
+                  ]
+                ]
+              }
+            ],
+            [
+              "controls",
+              {
+                "type": "dict",
+                "items": [
+                  [
+                    "r_grid",
+                    {
+                      "type": "array",
+                      "key": "array_0031",
+                      "shape": [
+                        282
+                      ],
+                      "dtype": "float64"
+                    }
+                  ],
+                  [
+                    "lambda_grid",
+                    {
+                      "type": "array",
+                      "key": "array_0032",
+                      "shape": [
+                        241
+                      ],
+                      "dtype": "float64"
+                    }
+                  ],
+                  [
+                    "fixed_lambdas",
+                    {
+                      "type": "list",
+                      "items": [
+                        0.0001,
+                        0.001,
+                        0.01,
+                        0.1,
+                        1.0
+                      ]
+                    }
+                  ],
+                  [
+                    "fixed_rs",
+                    {
+                      "type": "list",
+                      "items": [
+                        0.5,
+                        1.0,
+                        2.0,
+                        3.0,
+                        4.0,
+                        8.0
+                      ]
+                    }
+                  ],
+                  [
+                    "search",
+                    {
+                      "type": "dict",
+                      "items": [
+                        [
+                          "lambda_max",
+                          1000.0
+                        ],
+                        [
+                          "n_grid",
+                          641
+                        ]
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              "simulation",
+              {
+                "type": "dict",
+                "items": [
+                  [
+                    "fixed_lambda",
+                    {
+                      "type": "dict",
+                      "items": [
+                        [
+                          "config",
+                          {
+                            "type": "dict",
+                            "items": [
+                              [
+                                "q",
+                                20
+                              ],
+                              [
+                                "sigma",
+                                1.0
+                              ],
+                              [
+                                "f_train",
+                                0.1
+                              ],
+                              [
+                                "f_test",
+                                0.2
+                              ],
+                              [
+                                "eta",
+                                0.2
+                              ],
+                              [
+                                "signal_norm",
+                                10.0
+                              ],
+                              [
+                                "F",
+                                0.4
+                              ],
+                              [
+                                "F_test",
+                                0.4
+                              ],
+                              [
+                                "F_neq",
+                                0.2
+                              ],
+                              [
+                                "C_neq",
+                                0.03
+                              ],
+                              [
+                                "M_tot",
+                                0.12328828005937954
+                              ],
+                              [
+                                "M_neq",
+                                0.19493588689617927
+                              ],
+                              [
+                                "M_neq_test",
+                                0.38987177379235854
+                              ]
+                            ]
+                          }
+                        ],
+                        [
+                          "budget",
+                          1000
+                        ],
+                        [
+                          "trials",
+                          300
+                        ],
+                        [
+                          "r_values",
+                          {
+                            "type": "array",
+                            "key": "array_0033",
+                            "shape": [
+                              20
+                            ],
+                            "dtype": "float64"
+                          }
+                        ],
+                        [
+                          "ridge_lambdas",
+                          {
+                            "type": "array",
+                            "key": "array_0034",
+                            "shape": [
+                              5
+                            ],
+                            "dtype": "float64"
+                          }
+                        ],
+                        [
+                          "seed",
+                          17
+                        ]
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              "transition",
+              {
+                "type": "dict",
+                "items": [
+                  [
+                    "n_probe",
+                    65
+                  ],
+                  [
+                    "barrier_rtol",
+                    1e-08
+                  ]
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    ]
+  },
+  "utility_sha256": {
+    "__init__.py": "f94b17dd0d2e756f0c5ac476c4818c010e15bf4efd8de47d92c661e7311fefc2",
+    "appendix_evidence.py": "cfbe1d52448641a94193cd35b59682cdf91d5c72f5507ad17a03d77315818939",
+    "compensation_transitions.py": "68cef4a9cef81bd2380ea0639b88bb87010926940348c4272f5dd8a563909649",
+    "config.py": "2551a60b2963ce551928b043aaab556db487c1f4d387631fd7e7f28e5c81b15d",
+    "differing_signal_sweeps.py": "cda44be41295b5b79d2fccefeaaadf4158fb2677fa474d86ebd612a802bb4f31",
+    "exploration.py": "59aed18e606094ae673cee8b1fc79ef34a6d3849c79664b727e88d545ab94521",
+    "incremental_simulation.py": "c118f5696c6d558892be49d356999c5bf61765626df39e0748870f2f7cc57874",
+    "infinity_diagnostics.py": "82698f4bc8293de2215afb49fb852257c54c37635a39cfaab2402202701771b1",
+    "jobs.py": "4bd3b4e2f03dd4c3d40d9b94dc289c00deb17518144a95d6f1a630055a81297a",
+    "landscape_slices.py": "aa19eb6fccbb7ea7bf5894bc83f661a057fbc788fed58f0bf6004b15ede0204c",
+    "optimization.py": "26f1b2314b9bd781d23df44a2284a27f34f8aff6e6294ae9e03690c4c11910d1",
+    "paper_figures.py": "1ac355fb318750e3fbbfee4143181fa5b48fbafaea05ae1d0f398524ece4558c",
+    "parameter_axis.py": "3db54ed073df3895055fad74c3d20616d4e01de6dee7db1c4a672d2230ab36bb",
+    "parameter_planes.py": "d7337d393de09daf059e8df19483ec1df4903d763534f1acbf12759464ad1d1b",
+    "reference_compensation.py": "1225262d4bba467bf9050dbfe103c585aae438464784f967c1cf12c96443d94c",
+    "result_cache.py": "5d6cd7ec36fd8a4ada299ae9d52bad70d33bf53af7593124dc5471137121e3fe",
+    "ridge_diagnostics.py": "c44898c86f4e1c09e454d349e2d56aac8ef6b2a50a9f2936134238e8f300f329",
+    "simulation.py": "797a34c71e9abb5a310c5ed0417a8b90973f86fe9564558cc368cd59dbaf86fa",
+    "stieltjes.py": "aeaae6b9c8503f420b092299847357cbd02216ee64e7320e36e698ff63140d91",
+    "sweep_transitions.py": "0242affd4418aa39bfab9ed36ac79a5a944edfb79503b347fce95939fb85c433",
+    "theory.py": "f675d390bcf5f05dc32988c3eb664d0734d9a3062995ba0979e807ceb684e9e4",
+    "transition_diagnostics.py": "0076930d735c22029bc9f5c91492fa40f52125c7523f29cc6a0629fef1a6bbc3",
+    "zero_ridge_evidence.py": "408489f0d6e2880502812496a035ec363c350f9a3f71ffeb406709fe04a122bf"
+  },
+  "npz_sha256": "85ab1c4930a806639cec4a56fb6915661b87469882f4f0087c37dd74e74fe9dd"
+}

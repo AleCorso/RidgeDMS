@@ -1,0 +1,3005 @@
+{
+  "schema": 1,
+  "results": {
+    "type": "dict",
+    "items": [
+      [
+        "results",
+        {
+          "type": "dict",
+          "items": [
+            [
+              "Fneq_independent",
+              {
+                "type": "tuple",
+                "items": [
+                  {
+                    "type": "record",
+                    "name": "OptimizedSweepCurve",
+                    "fields": {
+                      "type": "dict",
+                      "items": [
+                        [
+                          "case",
+                          {
+                            "type": "record",
+                            "name": "SweepCase",
+                            "fields": {
+                              "type": "dict",
+                              "items": [
+                                [
+                                  "parameter",
+                                  "Fneq"
+                                ],
+                                [
+                                  "value",
+                                  0.1
+                                ],
+                                [
+                                  "parameters",
+                                  {
+                                    "type": "record",
+                                    "name": "SweepParameters",
+                                    "fields": {
+                                      "type": "dict",
+                                      "items": [
+                                        [
+                                          "q",
+                                          20
+                                        ],
+                                        [
+                                          "sigma",
+                                          1.0
+                                        ],
+                                        [
+                                          "G2",
+                                          100.0
+                                        ],
+                                        [
+                                          "f",
+                                          0.1
+                                        ],
+                                        [
+                                          "ftilde",
+                                          0.2
+                                        ],
+                                        [
+                                          "eta",
+                                          0.2
+                                        ],
+                                        [
+                                          "F",
+                                          0.4
+                                        ],
+                                        [
+                                          "FTest",
+                                          0.5
+                                        ],
+                                        [
+                                          "Fneq",
+                                          0.1
+                                        ],
+                                        [
+                                          "m",
+                                          0.05
+                                        ],
+                                        [
+                                          "mneq",
+                                          0.1
+                                        ],
+                                        [
+                                          "mneqtilde",
+                                          0.1
+                                        ],
+                                        [
+                                          "Cneq",
+                                          null
+                                        ],
+                                        [
+                                          "rhoneq",
+                                          0.25
+                                        ]
+                                      ]
+                                    }
+                                  }
+                                ],
+                                [
+                                  "config",
+                                  {
+                                    "type": "record",
+                                    "name": "DMSConfig",
+                                    "fields": {
+                                      "type": "dict",
+                                      "items": [
+                                        [
+                                          "q",
+                                          20
+                                        ],
+                                        [
+                                          "sigma",
+                                          1.0
+                                        ],
+                                        [
+                                          "f_train",
+                                          0.1
+                                        ],
+                                        [
+                                          "f_test",
+                                          0.2
+                                        ],
+                                        [
+                                          "eta",
+                                          0.2
+                                        ],
+                                        [
+                                          "signal_norm",
+                                          10.0
+                                        ],
+                                        [
+                                          "F",
+                                          0.4
+                                        ],
+                                        [
+                                          "F_test",
+                                          0.5
+                                        ],
+                                        [
+                                          "F_neq",
+                                          0.1
+                                        ],
+                                        [
+                                          "C_neq",
+                                          0.035355339059327376
+                                        ],
+                                        [
+                                          "M_tot",
+                                          0.3082207001484488
+                                        ],
+                                        [
+                                          "M_neq",
+                                          0.13784048752090222
+                                        ],
+                                        [
+                                          "M_neq_test",
+                                          0.19493588689617924
+                                        ]
+                                      ]
+                                    }
+                                  }
+                                ],
+                                [
+                                  "reference_L",
+                                  100
+                                ]
+                              ]
+                            }
+                          }
+                        ],
+                        [
+                          "optimum",
+                          {
+                            "type": "record",
+                            "name": "BoundaryRidgeOptimization",
+                            "fields": {
+                              "type": "dict",
+                              "items": [
+                                [
+                                  "r_values",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0000",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "ridge_lambdas",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0001",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "kappas",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0002",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "risks",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0003",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "status",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0004",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "<U8"
+                                  }
+                                ],
+                                [
+                                  "zero_slopes",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0005",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ]
+                              ]
+                            }
+                          }
+                        ],
+                        [
+                          "r_infinity",
+                          8.963322715642063
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "type": "record",
+                    "name": "OptimizedSweepCurve",
+                    "fields": {
+                      "type": "dict",
+                      "items": [
+                        [
+                          "case",
+                          {
+                            "type": "record",
+                            "name": "SweepCase",
+                            "fields": {
+                              "type": "dict",
+                              "items": [
+                                [
+                                  "parameter",
+                                  "Fneq"
+                                ],
+                                [
+                                  "value",
+                                  0.2
+                                ],
+                                [
+                                  "parameters",
+                                  {
+                                    "type": "record",
+                                    "name": "SweepParameters",
+                                    "fields": {
+                                      "type": "dict",
+                                      "items": [
+                                        [
+                                          "q",
+                                          20
+                                        ],
+                                        [
+                                          "sigma",
+                                          1.0
+                                        ],
+                                        [
+                                          "G2",
+                                          100.0
+                                        ],
+                                        [
+                                          "f",
+                                          0.1
+                                        ],
+                                        [
+                                          "ftilde",
+                                          0.2
+                                        ],
+                                        [
+                                          "eta",
+                                          0.2
+                                        ],
+                                        [
+                                          "F",
+                                          0.4
+                                        ],
+                                        [
+                                          "FTest",
+                                          0.4
+                                        ],
+                                        [
+                                          "Fneq",
+                                          0.2
+                                        ],
+                                        [
+                                          "m",
+                                          0.05
+                                        ],
+                                        [
+                                          "mneq",
+                                          0.1
+                                        ],
+                                        [
+                                          "mneqtilde",
+                                          0.1
+                                        ],
+                                        [
+                                          "Cneq",
+                                          null
+                                        ],
+                                        [
+                                          "rhoneq",
+                                          0.25
+                                        ]
+                                      ]
+                                    }
+                                  }
+                                ],
+                                [
+                                  "config",
+                                  {
+                                    "type": "record",
+                                    "name": "DMSConfig",
+                                    "fields": {
+                                      "type": "dict",
+                                      "items": [
+                                        [
+                                          "q",
+                                          20
+                                        ],
+                                        [
+                                          "sigma",
+                                          1.0
+                                        ],
+                                        [
+                                          "f_train",
+                                          0.1
+                                        ],
+                                        [
+                                          "f_test",
+                                          0.2
+                                        ],
+                                        [
+                                          "eta",
+                                          0.2
+                                        ],
+                                        [
+                                          "signal_norm",
+                                          10.0
+                                        ],
+                                        [
+                                          "F",
+                                          0.4
+                                        ],
+                                        [
+                                          "F_test",
+                                          0.4
+                                        ],
+                                        [
+                                          "F_neq",
+                                          0.2
+                                        ],
+                                        [
+                                          "C_neq",
+                                          0.05
+                                        ],
+                                        [
+                                          "M_tot",
+                                          0.3082207001484488
+                                        ],
+                                        [
+                                          "M_neq",
+                                          0.19493588689617927
+                                        ],
+                                        [
+                                          "M_neq_test",
+                                          0.19493588689617927
+                                        ]
+                                      ]
+                                    }
+                                  }
+                                ],
+                                [
+                                  "reference_L",
+                                  100
+                                ]
+                              ]
+                            }
+                          }
+                        ],
+                        [
+                          "optimum",
+                          {
+                            "type": "record",
+                            "name": "BoundaryRidgeOptimization",
+                            "fields": {
+                              "type": "dict",
+                              "items": [
+                                [
+                                  "r_values",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0006",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "ridge_lambdas",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0007",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "kappas",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0008",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "risks",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0009",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "status",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0010",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "<U8"
+                                  }
+                                ],
+                                [
+                                  "zero_slopes",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0011",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ]
+                              ]
+                            }
+                          }
+                        ],
+                        [
+                          "r_infinity",
+                          7.473684210526316
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "type": "record",
+                    "name": "OptimizedSweepCurve",
+                    "fields": {
+                      "type": "dict",
+                      "items": [
+                        [
+                          "case",
+                          {
+                            "type": "record",
+                            "name": "SweepCase",
+                            "fields": {
+                              "type": "dict",
+                              "items": [
+                                [
+                                  "parameter",
+                                  "Fneq"
+                                ],
+                                [
+                                  "value",
+                                  0.3
+                                ],
+                                [
+                                  "parameters",
+                                  {
+                                    "type": "record",
+                                    "name": "SweepParameters",
+                                    "fields": {
+                                      "type": "dict",
+                                      "items": [
+                                        [
+                                          "q",
+                                          20
+                                        ],
+                                        [
+                                          "sigma",
+                                          1.0
+                                        ],
+                                        [
+                                          "G2",
+                                          100.0
+                                        ],
+                                        [
+                                          "f",
+                                          0.1
+                                        ],
+                                        [
+                                          "ftilde",
+                                          0.2
+                                        ],
+                                        [
+                                          "eta",
+                                          0.2
+                                        ],
+                                        [
+                                          "F",
+                                          0.4
+                                        ],
+                                        [
+                                          "FTest",
+                                          0.30000000000000004
+                                        ],
+                                        [
+                                          "Fneq",
+                                          0.3
+                                        ],
+                                        [
+                                          "m",
+                                          0.05
+                                        ],
+                                        [
+                                          "mneq",
+                                          0.1
+                                        ],
+                                        [
+                                          "mneqtilde",
+                                          0.1
+                                        ],
+                                        [
+                                          "Cneq",
+                                          null
+                                        ],
+                                        [
+                                          "rhoneq",
+                                          0.25
+                                        ]
+                                      ]
+                                    }
+                                  }
+                                ],
+                                [
+                                  "config",
+                                  {
+                                    "type": "record",
+                                    "name": "DMSConfig",
+                                    "fields": {
+                                      "type": "dict",
+                                      "items": [
+                                        [
+                                          "q",
+                                          20
+                                        ],
+                                        [
+                                          "sigma",
+                                          1.0
+                                        ],
+                                        [
+                                          "f_train",
+                                          0.1
+                                        ],
+                                        [
+                                          "f_test",
+                                          0.2
+                                        ],
+                                        [
+                                          "eta",
+                                          0.2
+                                        ],
+                                        [
+                                          "signal_norm",
+                                          10.0
+                                        ],
+                                        [
+                                          "F",
+                                          0.4
+                                        ],
+                                        [
+                                          "F_test",
+                                          0.30000000000000004
+                                        ],
+                                        [
+                                          "F_neq",
+                                          0.3
+                                        ],
+                                        [
+                                          "C_neq",
+                                          0.06123724356957945
+                                        ],
+                                        [
+                                          "M_tot",
+                                          0.3082207001484488
+                                        ],
+                                        [
+                                          "M_neq",
+                                          0.2387467277262664
+                                        ],
+                                        [
+                                          "M_neq_test",
+                                          0.19493588689617927
+                                        ]
+                                      ]
+                                    }
+                                  }
+                                ],
+                                [
+                                  "reference_L",
+                                  100
+                                ]
+                              ]
+                            }
+                          }
+                        ],
+                        [
+                          "optimum",
+                          {
+                            "type": "record",
+                            "name": "BoundaryRidgeOptimization",
+                            "fields": {
+                              "type": "dict",
+                              "items": [
+                                [
+                                  "r_values",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0012",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "ridge_lambdas",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0013",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "kappas",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0014",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "risks",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0015",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "status",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0016",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "<U8"
+                                  }
+                                ],
+                                [
+                                  "zero_slopes",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0017",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ]
+                              ]
+                            }
+                          }
+                        ],
+                        [
+                          "r_infinity",
+                          6.238799773210063
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "type": "record",
+                    "name": "OptimizedSweepCurve",
+                    "fields": {
+                      "type": "dict",
+                      "items": [
+                        [
+                          "case",
+                          {
+                            "type": "record",
+                            "name": "SweepCase",
+                            "fields": {
+                              "type": "dict",
+                              "items": [
+                                [
+                                  "parameter",
+                                  "Fneq"
+                                ],
+                                [
+                                  "value",
+                                  0.39
+                                ],
+                                [
+                                  "parameters",
+                                  {
+                                    "type": "record",
+                                    "name": "SweepParameters",
+                                    "fields": {
+                                      "type": "dict",
+                                      "items": [
+                                        [
+                                          "q",
+                                          20
+                                        ],
+                                        [
+                                          "sigma",
+                                          1.0
+                                        ],
+                                        [
+                                          "G2",
+                                          100.0
+                                        ],
+                                        [
+                                          "f",
+                                          0.1
+                                        ],
+                                        [
+                                          "ftilde",
+                                          0.2
+                                        ],
+                                        [
+                                          "eta",
+                                          0.2
+                                        ],
+                                        [
+                                          "F",
+                                          0.4
+                                        ],
+                                        [
+                                          "FTest",
+                                          0.21000000000000002
+                                        ],
+                                        [
+                                          "Fneq",
+                                          0.39
+                                        ],
+                                        [
+                                          "m",
+                                          0.05
+                                        ],
+                                        [
+                                          "mneq",
+                                          0.1
+                                        ],
+                                        [
+                                          "mneqtilde",
+                                          0.1
+                                        ],
+                                        [
+                                          "Cneq",
+                                          null
+                                        ],
+                                        [
+                                          "rhoneq",
+                                          0.25
+                                        ]
+                                      ]
+                                    }
+                                  }
+                                ],
+                                [
+                                  "config",
+                                  {
+                                    "type": "record",
+                                    "name": "DMSConfig",
+                                    "fields": {
+                                      "type": "dict",
+                                      "items": [
+                                        [
+                                          "q",
+                                          20
+                                        ],
+                                        [
+                                          "sigma",
+                                          1.0
+                                        ],
+                                        [
+                                          "f_train",
+                                          0.1
+                                        ],
+                                        [
+                                          "f_test",
+                                          0.2
+                                        ],
+                                        [
+                                          "eta",
+                                          0.2
+                                        ],
+                                        [
+                                          "signal_norm",
+                                          10.0
+                                        ],
+                                        [
+                                          "F",
+                                          0.4
+                                        ],
+                                        [
+                                          "F_test",
+                                          0.21000000000000002
+                                        ],
+                                        [
+                                          "F_neq",
+                                          0.39
+                                        ],
+                                        [
+                                          "C_neq",
+                                          0.0698212002188447
+                                        ],
+                                        [
+                                          "M_tot",
+                                          0.3082207001484488
+                                        ],
+                                        [
+                                          "M_neq",
+                                          0.272213151776324
+                                        ],
+                                        [
+                                          "M_neq_test",
+                                          0.19493588689617927
+                                        ]
+                                      ]
+                                    }
+                                  }
+                                ],
+                                [
+                                  "reference_L",
+                                  100
+                                ]
+                              ]
+                            }
+                          }
+                        ],
+                        [
+                          "optimum",
+                          {
+                            "type": "record",
+                            "name": "BoundaryRidgeOptimization",
+                            "fields": {
+                              "type": "dict",
+                              "items": [
+                                [
+                                  "r_values",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0018",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "ridge_lambdas",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0019",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "kappas",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0020",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "risks",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0021",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "status",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0022",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "<U8"
+                                  }
+                                ],
+                                [
+                                  "zero_slopes",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0023",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ]
+                              ]
+                            }
+                          }
+                        ],
+                        [
+                          "r_infinity",
+                          5.241760854950147
+                        ]
+                      ]
+                    }
+                  }
+                ]
+              }
+            ],
+            [
+              "Fneqtilde_independent",
+              {
+                "type": "tuple",
+                "items": [
+                  {
+                    "type": "record",
+                    "name": "OptimizedSweepCurve",
+                    "fields": {
+                      "type": "dict",
+                      "items": [
+                        [
+                          "case",
+                          {
+                            "type": "record",
+                            "name": "SweepCase",
+                            "fields": {
+                              "type": "dict",
+                              "items": [
+                                [
+                                  "parameter",
+                                  "Fneqtilde"
+                                ],
+                                [
+                                  "value",
+                                  0.1
+                                ],
+                                [
+                                  "parameters",
+                                  {
+                                    "type": "record",
+                                    "name": "SweepParameters",
+                                    "fields": {
+                                      "type": "dict",
+                                      "items": [
+                                        [
+                                          "q",
+                                          20
+                                        ],
+                                        [
+                                          "sigma",
+                                          1.0
+                                        ],
+                                        [
+                                          "G2",
+                                          100.0
+                                        ],
+                                        [
+                                          "f",
+                                          0.1
+                                        ],
+                                        [
+                                          "ftilde",
+                                          0.2
+                                        ],
+                                        [
+                                          "eta",
+                                          0.2
+                                        ],
+                                        [
+                                          "F",
+                                          0.4
+                                        ],
+                                        [
+                                          "FTest",
+                                          0.30000000000000004
+                                        ],
+                                        [
+                                          "Fneq",
+                                          0.2
+                                        ],
+                                        [
+                                          "m",
+                                          0.05
+                                        ],
+                                        [
+                                          "mneq",
+                                          0.1
+                                        ],
+                                        [
+                                          "mneqtilde",
+                                          0.1
+                                        ],
+                                        [
+                                          "Cneq",
+                                          null
+                                        ],
+                                        [
+                                          "rhoneq",
+                                          0.25
+                                        ]
+                                      ]
+                                    }
+                                  }
+                                ],
+                                [
+                                  "config",
+                                  {
+                                    "type": "record",
+                                    "name": "DMSConfig",
+                                    "fields": {
+                                      "type": "dict",
+                                      "items": [
+                                        [
+                                          "q",
+                                          20
+                                        ],
+                                        [
+                                          "sigma",
+                                          1.0
+                                        ],
+                                        [
+                                          "f_train",
+                                          0.1
+                                        ],
+                                        [
+                                          "f_test",
+                                          0.2
+                                        ],
+                                        [
+                                          "eta",
+                                          0.2
+                                        ],
+                                        [
+                                          "signal_norm",
+                                          10.0
+                                        ],
+                                        [
+                                          "F",
+                                          0.4
+                                        ],
+                                        [
+                                          "F_test",
+                                          0.30000000000000004
+                                        ],
+                                        [
+                                          "F_neq",
+                                          0.2
+                                        ],
+                                        [
+                                          "C_neq",
+                                          0.03535533905932738
+                                        ],
+                                        [
+                                          "M_tot",
+                                          0.3082207001484488
+                                        ],
+                                        [
+                                          "M_neq",
+                                          0.19493588689617927
+                                        ],
+                                        [
+                                          "M_neq_test",
+                                          0.13784048752090225
+                                        ]
+                                      ]
+                                    }
+                                  }
+                                ],
+                                [
+                                  "reference_L",
+                                  100
+                                ]
+                              ]
+                            }
+                          }
+                        ],
+                        [
+                          "optimum",
+                          {
+                            "type": "record",
+                            "name": "BoundaryRidgeOptimization",
+                            "fields": {
+                              "type": "dict",
+                              "items": [
+                                [
+                                  "r_values",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0024",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "ridge_lambdas",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0025",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "kappas",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0026",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "risks",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0027",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "status",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0028",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "<U8"
+                                  }
+                                ],
+                                [
+                                  "zero_slopes",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0029",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ]
+                              ]
+                            }
+                          }
+                        ],
+                        [
+                          "r_infinity",
+                          6.390402515222224
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "type": "record",
+                    "name": "OptimizedSweepCurve",
+                    "fields": {
+                      "type": "dict",
+                      "items": [
+                        [
+                          "case",
+                          {
+                            "type": "record",
+                            "name": "SweepCase",
+                            "fields": {
+                              "type": "dict",
+                              "items": [
+                                [
+                                  "parameter",
+                                  "Fneqtilde"
+                                ],
+                                [
+                                  "value",
+                                  0.2
+                                ],
+                                [
+                                  "parameters",
+                                  {
+                                    "type": "record",
+                                    "name": "SweepParameters",
+                                    "fields": {
+                                      "type": "dict",
+                                      "items": [
+                                        [
+                                          "q",
+                                          20
+                                        ],
+                                        [
+                                          "sigma",
+                                          1.0
+                                        ],
+                                        [
+                                          "G2",
+                                          100.0
+                                        ],
+                                        [
+                                          "f",
+                                          0.1
+                                        ],
+                                        [
+                                          "ftilde",
+                                          0.2
+                                        ],
+                                        [
+                                          "eta",
+                                          0.2
+                                        ],
+                                        [
+                                          "F",
+                                          0.4
+                                        ],
+                                        [
+                                          "FTest",
+                                          0.4
+                                        ],
+                                        [
+                                          "Fneq",
+                                          0.2
+                                        ],
+                                        [
+                                          "m",
+                                          0.05
+                                        ],
+                                        [
+                                          "mneq",
+                                          0.1
+                                        ],
+                                        [
+                                          "mneqtilde",
+                                          0.1
+                                        ],
+                                        [
+                                          "Cneq",
+                                          null
+                                        ],
+                                        [
+                                          "rhoneq",
+                                          0.25
+                                        ]
+                                      ]
+                                    }
+                                  }
+                                ],
+                                [
+                                  "config",
+                                  {
+                                    "type": "record",
+                                    "name": "DMSConfig",
+                                    "fields": {
+                                      "type": "dict",
+                                      "items": [
+                                        [
+                                          "q",
+                                          20
+                                        ],
+                                        [
+                                          "sigma",
+                                          1.0
+                                        ],
+                                        [
+                                          "f_train",
+                                          0.1
+                                        ],
+                                        [
+                                          "f_test",
+                                          0.2
+                                        ],
+                                        [
+                                          "eta",
+                                          0.2
+                                        ],
+                                        [
+                                          "signal_norm",
+                                          10.0
+                                        ],
+                                        [
+                                          "F",
+                                          0.4
+                                        ],
+                                        [
+                                          "F_test",
+                                          0.4
+                                        ],
+                                        [
+                                          "F_neq",
+                                          0.2
+                                        ],
+                                        [
+                                          "C_neq",
+                                          0.05
+                                        ],
+                                        [
+                                          "M_tot",
+                                          0.3082207001484488
+                                        ],
+                                        [
+                                          "M_neq",
+                                          0.19493588689617927
+                                        ],
+                                        [
+                                          "M_neq_test",
+                                          0.19493588689617927
+                                        ]
+                                      ]
+                                    }
+                                  }
+                                ],
+                                [
+                                  "reference_L",
+                                  100
+                                ]
+                              ]
+                            }
+                          }
+                        ],
+                        [
+                          "optimum",
+                          {
+                            "type": "record",
+                            "name": "BoundaryRidgeOptimization",
+                            "fields": {
+                              "type": "dict",
+                              "items": [
+                                [
+                                  "r_values",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0030",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "ridge_lambdas",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0031",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "kappas",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0032",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "risks",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0033",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "status",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0034",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "<U8"
+                                  }
+                                ],
+                                [
+                                  "zero_slopes",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0035",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ]
+                              ]
+                            }
+                          }
+                        ],
+                        [
+                          "r_infinity",
+                          7.473684210526316
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "type": "record",
+                    "name": "OptimizedSweepCurve",
+                    "fields": {
+                      "type": "dict",
+                      "items": [
+                        [
+                          "case",
+                          {
+                            "type": "record",
+                            "name": "SweepCase",
+                            "fields": {
+                              "type": "dict",
+                              "items": [
+                                [
+                                  "parameter",
+                                  "Fneqtilde"
+                                ],
+                                [
+                                  "value",
+                                  0.3
+                                ],
+                                [
+                                  "parameters",
+                                  {
+                                    "type": "record",
+                                    "name": "SweepParameters",
+                                    "fields": {
+                                      "type": "dict",
+                                      "items": [
+                                        [
+                                          "q",
+                                          20
+                                        ],
+                                        [
+                                          "sigma",
+                                          1.0
+                                        ],
+                                        [
+                                          "G2",
+                                          100.0
+                                        ],
+                                        [
+                                          "f",
+                                          0.1
+                                        ],
+                                        [
+                                          "ftilde",
+                                          0.2
+                                        ],
+                                        [
+                                          "eta",
+                                          0.2
+                                        ],
+                                        [
+                                          "F",
+                                          0.4
+                                        ],
+                                        [
+                                          "FTest",
+                                          0.5
+                                        ],
+                                        [
+                                          "Fneq",
+                                          0.2
+                                        ],
+                                        [
+                                          "m",
+                                          0.05
+                                        ],
+                                        [
+                                          "mneq",
+                                          0.1
+                                        ],
+                                        [
+                                          "mneqtilde",
+                                          0.1
+                                        ],
+                                        [
+                                          "Cneq",
+                                          null
+                                        ],
+                                        [
+                                          "rhoneq",
+                                          0.25
+                                        ]
+                                      ]
+                                    }
+                                  }
+                                ],
+                                [
+                                  "config",
+                                  {
+                                    "type": "record",
+                                    "name": "DMSConfig",
+                                    "fields": {
+                                      "type": "dict",
+                                      "items": [
+                                        [
+                                          "q",
+                                          20
+                                        ],
+                                        [
+                                          "sigma",
+                                          1.0
+                                        ],
+                                        [
+                                          "f_train",
+                                          0.1
+                                        ],
+                                        [
+                                          "f_test",
+                                          0.2
+                                        ],
+                                        [
+                                          "eta",
+                                          0.2
+                                        ],
+                                        [
+                                          "signal_norm",
+                                          10.0
+                                        ],
+                                        [
+                                          "F",
+                                          0.4
+                                        ],
+                                        [
+                                          "F_test",
+                                          0.5
+                                        ],
+                                        [
+                                          "F_neq",
+                                          0.2
+                                        ],
+                                        [
+                                          "C_neq",
+                                          0.06123724356957945
+                                        ],
+                                        [
+                                          "M_tot",
+                                          0.3082207001484488
+                                        ],
+                                        [
+                                          "M_neq",
+                                          0.19493588689617927
+                                        ],
+                                        [
+                                          "M_neq_test",
+                                          0.2387467277262664
+                                        ]
+                                      ]
+                                    }
+                                  }
+                                ],
+                                [
+                                  "reference_L",
+                                  100
+                                ]
+                              ]
+                            }
+                          }
+                        ],
+                        [
+                          "optimum",
+                          {
+                            "type": "record",
+                            "name": "BoundaryRidgeOptimization",
+                            "fields": {
+                              "type": "dict",
+                              "items": [
+                                [
+                                  "r_values",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0036",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "ridge_lambdas",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0037",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "kappas",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0038",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "risks",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0039",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "status",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0040",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "<U8"
+                                  }
+                                ],
+                                [
+                                  "zero_slopes",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0041",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ]
+                              ]
+                            }
+                          }
+                        ],
+                        [
+                          "r_infinity",
+                          8.947827760974882
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "type": "record",
+                    "name": "OptimizedSweepCurve",
+                    "fields": {
+                      "type": "dict",
+                      "items": [
+                        [
+                          "case",
+                          {
+                            "type": "record",
+                            "name": "SweepCase",
+                            "fields": {
+                              "type": "dict",
+                              "items": [
+                                [
+                                  "parameter",
+                                  "Fneqtilde"
+                                ],
+                                [
+                                  "value",
+                                  0.39
+                                ],
+                                [
+                                  "parameters",
+                                  {
+                                    "type": "record",
+                                    "name": "SweepParameters",
+                                    "fields": {
+                                      "type": "dict",
+                                      "items": [
+                                        [
+                                          "q",
+                                          20
+                                        ],
+                                        [
+                                          "sigma",
+                                          1.0
+                                        ],
+                                        [
+                                          "G2",
+                                          100.0
+                                        ],
+                                        [
+                                          "f",
+                                          0.1
+                                        ],
+                                        [
+                                          "ftilde",
+                                          0.2
+                                        ],
+                                        [
+                                          "eta",
+                                          0.2
+                                        ],
+                                        [
+                                          "F",
+                                          0.4
+                                        ],
+                                        [
+                                          "FTest",
+                                          0.5900000000000001
+                                        ],
+                                        [
+                                          "Fneq",
+                                          0.2
+                                        ],
+                                        [
+                                          "m",
+                                          0.05
+                                        ],
+                                        [
+                                          "mneq",
+                                          0.1
+                                        ],
+                                        [
+                                          "mneqtilde",
+                                          0.1
+                                        ],
+                                        [
+                                          "Cneq",
+                                          null
+                                        ],
+                                        [
+                                          "rhoneq",
+                                          0.25
+                                        ]
+                                      ]
+                                    }
+                                  }
+                                ],
+                                [
+                                  "config",
+                                  {
+                                    "type": "record",
+                                    "name": "DMSConfig",
+                                    "fields": {
+                                      "type": "dict",
+                                      "items": [
+                                        [
+                                          "q",
+                                          20
+                                        ],
+                                        [
+                                          "sigma",
+                                          1.0
+                                        ],
+                                        [
+                                          "f_train",
+                                          0.1
+                                        ],
+                                        [
+                                          "f_test",
+                                          0.2
+                                        ],
+                                        [
+                                          "eta",
+                                          0.2
+                                        ],
+                                        [
+                                          "signal_norm",
+                                          10.0
+                                        ],
+                                        [
+                                          "F",
+                                          0.4
+                                        ],
+                                        [
+                                          "F_test",
+                                          0.5900000000000001
+                                        ],
+                                        [
+                                          "F_neq",
+                                          0.2
+                                        ],
+                                        [
+                                          "C_neq",
+                                          0.0698212002188447
+                                        ],
+                                        [
+                                          "M_tot",
+                                          0.3082207001484488
+                                        ],
+                                        [
+                                          "M_neq",
+                                          0.19493588689617927
+                                        ],
+                                        [
+                                          "M_neq_test",
+                                          0.272213151776324
+                                        ]
+                                      ]
+                                    }
+                                  }
+                                ],
+                                [
+                                  "reference_L",
+                                  100
+                                ]
+                              ]
+                            }
+                          }
+                        ],
+                        [
+                          "optimum",
+                          {
+                            "type": "record",
+                            "name": "BoundaryRidgeOptimization",
+                            "fields": {
+                              "type": "dict",
+                              "items": [
+                                [
+                                  "r_values",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0042",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "ridge_lambdas",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0043",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "kappas",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0044",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "risks",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0045",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ],
+                                [
+                                  "status",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0046",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "<U8"
+                                  }
+                                ],
+                                [
+                                  "zero_slopes",
+                                  {
+                                    "type": "array",
+                                    "key": "array_0047",
+                                    "shape": [
+                                      101
+                                    ],
+                                    "dtype": "float64"
+                                  }
+                                ]
+                              ]
+                            }
+                          }
+                        ],
+                        [
+                          "r_infinity",
+                          10.45001173516349
+                        ]
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        "transitions",
+        {
+          "type": "dict",
+          "items": [
+            [
+              "Fneq_independent",
+              {
+                "type": "dict",
+                "items": [
+                  [
+                    "signature",
+                    "8dec3cf8d00c59d643fb33d6ba6b6d012bed43ea0d0e43661da1001188ae8c82"
+                  ],
+                  [
+                    "evidence",
+                    {
+                      "type": "tuple",
+                      "items": [
+                        {
+                          "type": "dict",
+                          "items": [
+                            [
+                              "jump_mask",
+                              {
+                                "type": "array",
+                                "key": "array_0048",
+                                "shape": [
+                                  100
+                                ],
+                                "dtype": "bool"
+                              }
+                            ],
+                            [
+                              "barrier_excess",
+                              {
+                                "type": "array",
+                                "key": "array_0049",
+                                "shape": [
+                                  100,
+                                  2
+                                ],
+                                "dtype": "float64"
+                              }
+                            ],
+                            [
+                              "reason",
+                              {
+                                "type": "array",
+                                "key": "array_0050",
+                                "shape": [
+                                  100
+                                ],
+                                "dtype": "<U32"
+                              }
+                            ],
+                            [
+                              "r_intervals",
+                              {
+                                "type": "array",
+                                "key": "array_0051",
+                                "shape": [
+                                  100,
+                                  2
+                                ],
+                                "dtype": "float64"
+                              }
+                            ],
+                            [
+                              "n_probe",
+                              65
+                            ],
+                            [
+                              "barrier_rtol",
+                              1e-08
+                            ]
+                          ]
+                        },
+                        {
+                          "type": "dict",
+                          "items": [
+                            [
+                              "jump_mask",
+                              {
+                                "type": "array",
+                                "key": "array_0052",
+                                "shape": [
+                                  100
+                                ],
+                                "dtype": "bool"
+                              }
+                            ],
+                            [
+                              "barrier_excess",
+                              {
+                                "type": "array",
+                                "key": "array_0053",
+                                "shape": [
+                                  100,
+                                  2
+                                ],
+                                "dtype": "float64"
+                              }
+                            ],
+                            [
+                              "reason",
+                              {
+                                "type": "array",
+                                "key": "array_0054",
+                                "shape": [
+                                  100
+                                ],
+                                "dtype": "<U32"
+                              }
+                            ],
+                            [
+                              "r_intervals",
+                              {
+                                "type": "array",
+                                "key": "array_0055",
+                                "shape": [
+                                  100,
+                                  2
+                                ],
+                                "dtype": "float64"
+                              }
+                            ],
+                            [
+                              "n_probe",
+                              65
+                            ],
+                            [
+                              "barrier_rtol",
+                              1e-08
+                            ]
+                          ]
+                        },
+                        {
+                          "type": "dict",
+                          "items": [
+                            [
+                              "jump_mask",
+                              {
+                                "type": "array",
+                                "key": "array_0056",
+                                "shape": [
+                                  100
+                                ],
+                                "dtype": "bool"
+                              }
+                            ],
+                            [
+                              "barrier_excess",
+                              {
+                                "type": "array",
+                                "key": "array_0057",
+                                "shape": [
+                                  100,
+                                  2
+                                ],
+                                "dtype": "float64"
+                              }
+                            ],
+                            [
+                              "reason",
+                              {
+                                "type": "array",
+                                "key": "array_0058",
+                                "shape": [
+                                  100
+                                ],
+                                "dtype": "<U32"
+                              }
+                            ],
+                            [
+                              "r_intervals",
+                              {
+                                "type": "array",
+                                "key": "array_0059",
+                                "shape": [
+                                  100,
+                                  2
+                                ],
+                                "dtype": "float64"
+                              }
+                            ],
+                            [
+                              "n_probe",
+                              65
+                            ],
+                            [
+                              "barrier_rtol",
+                              1e-08
+                            ]
+                          ]
+                        },
+                        {
+                          "type": "dict",
+                          "items": [
+                            [
+                              "jump_mask",
+                              {
+                                "type": "array",
+                                "key": "array_0060",
+                                "shape": [
+                                  100
+                                ],
+                                "dtype": "bool"
+                              }
+                            ],
+                            [
+                              "barrier_excess",
+                              {
+                                "type": "array",
+                                "key": "array_0061",
+                                "shape": [
+                                  100,
+                                  2
+                                ],
+                                "dtype": "float64"
+                              }
+                            ],
+                            [
+                              "reason",
+                              {
+                                "type": "array",
+                                "key": "array_0062",
+                                "shape": [
+                                  100
+                                ],
+                                "dtype": "<U32"
+                              }
+                            ],
+                            [
+                              "r_intervals",
+                              {
+                                "type": "array",
+                                "key": "array_0063",
+                                "shape": [
+                                  100,
+                                  2
+                                ],
+                                "dtype": "float64"
+                              }
+                            ],
+                            [
+                              "n_probe",
+                              65
+                            ],
+                            [
+                              "barrier_rtol",
+                              1e-08
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    "identity",
+                    "c0575a3d1d9bfccca44304a91f908efe48892ed5d7cd5973b060699102cb6b17:53e798463c29de9f90ae94b0c3c263b9f44a4821977a75d884258f39748b511f"
+                  ]
+                ]
+              }
+            ],
+            [
+              "Fneqtilde_independent",
+              {
+                "type": "dict",
+                "items": [
+                  [
+                    "signature",
+                    "3b1a46635221178f7b49681a0a7370e2291ff3a395b304162cb49772f4a13547"
+                  ],
+                  [
+                    "evidence",
+                    {
+                      "type": "tuple",
+                      "items": [
+                        {
+                          "type": "dict",
+                          "items": [
+                            [
+                              "jump_mask",
+                              {
+                                "type": "array",
+                                "key": "array_0064",
+                                "shape": [
+                                  100
+                                ],
+                                "dtype": "bool"
+                              }
+                            ],
+                            [
+                              "barrier_excess",
+                              {
+                                "type": "array",
+                                "key": "array_0065",
+                                "shape": [
+                                  100,
+                                  2
+                                ],
+                                "dtype": "float64"
+                              }
+                            ],
+                            [
+                              "reason",
+                              {
+                                "type": "array",
+                                "key": "array_0066",
+                                "shape": [
+                                  100
+                                ],
+                                "dtype": "<U32"
+                              }
+                            ],
+                            [
+                              "r_intervals",
+                              {
+                                "type": "array",
+                                "key": "array_0067",
+                                "shape": [
+                                  100,
+                                  2
+                                ],
+                                "dtype": "float64"
+                              }
+                            ],
+                            [
+                              "n_probe",
+                              65
+                            ],
+                            [
+                              "barrier_rtol",
+                              1e-08
+                            ]
+                          ]
+                        },
+                        {
+                          "type": "dict",
+                          "items": [
+                            [
+                              "jump_mask",
+                              {
+                                "type": "array",
+                                "key": "array_0068",
+                                "shape": [
+                                  100
+                                ],
+                                "dtype": "bool"
+                              }
+                            ],
+                            [
+                              "barrier_excess",
+                              {
+                                "type": "array",
+                                "key": "array_0069",
+                                "shape": [
+                                  100,
+                                  2
+                                ],
+                                "dtype": "float64"
+                              }
+                            ],
+                            [
+                              "reason",
+                              {
+                                "type": "array",
+                                "key": "array_0070",
+                                "shape": [
+                                  100
+                                ],
+                                "dtype": "<U32"
+                              }
+                            ],
+                            [
+                              "r_intervals",
+                              {
+                                "type": "array",
+                                "key": "array_0071",
+                                "shape": [
+                                  100,
+                                  2
+                                ],
+                                "dtype": "float64"
+                              }
+                            ],
+                            [
+                              "n_probe",
+                              65
+                            ],
+                            [
+                              "barrier_rtol",
+                              1e-08
+                            ]
+                          ]
+                        },
+                        {
+                          "type": "dict",
+                          "items": [
+                            [
+                              "jump_mask",
+                              {
+                                "type": "array",
+                                "key": "array_0072",
+                                "shape": [
+                                  100
+                                ],
+                                "dtype": "bool"
+                              }
+                            ],
+                            [
+                              "barrier_excess",
+                              {
+                                "type": "array",
+                                "key": "array_0073",
+                                "shape": [
+                                  100,
+                                  2
+                                ],
+                                "dtype": "float64"
+                              }
+                            ],
+                            [
+                              "reason",
+                              {
+                                "type": "array",
+                                "key": "array_0074",
+                                "shape": [
+                                  100
+                                ],
+                                "dtype": "<U32"
+                              }
+                            ],
+                            [
+                              "r_intervals",
+                              {
+                                "type": "array",
+                                "key": "array_0075",
+                                "shape": [
+                                  100,
+                                  2
+                                ],
+                                "dtype": "float64"
+                              }
+                            ],
+                            [
+                              "n_probe",
+                              65
+                            ],
+                            [
+                              "barrier_rtol",
+                              1e-08
+                            ]
+                          ]
+                        },
+                        {
+                          "type": "dict",
+                          "items": [
+                            [
+                              "jump_mask",
+                              {
+                                "type": "array",
+                                "key": "array_0076",
+                                "shape": [
+                                  100
+                                ],
+                                "dtype": "bool"
+                              }
+                            ],
+                            [
+                              "barrier_excess",
+                              {
+                                "type": "array",
+                                "key": "array_0077",
+                                "shape": [
+                                  100,
+                                  2
+                                ],
+                                "dtype": "float64"
+                              }
+                            ],
+                            [
+                              "reason",
+                              {
+                                "type": "array",
+                                "key": "array_0078",
+                                "shape": [
+                                  100
+                                ],
+                                "dtype": "<U32"
+                              }
+                            ],
+                            [
+                              "r_intervals",
+                              {
+                                "type": "array",
+                                "key": "array_0079",
+                                "shape": [
+                                  100,
+                                  2
+                                ],
+                                "dtype": "float64"
+                              }
+                            ],
+                            [
+                              "n_probe",
+                              65
+                            ],
+                            [
+                              "barrier_rtol",
+                              1e-08
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    "identity",
+                    "c9fd4bd09fba65dc0121e76befd237ba6f1506482828b1a5d7abe685d9435709:3ed61bbb5c478cfe80a938eb9feadc3d318fdd9e2c9c5efaa6bc83b32393d60b"
+                  ]
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    ]
+  },
+  "metadata": {
+    "type": "dict",
+    "items": [
+      [
+        "settings",
+        {
+          "type": "dict",
+          "items": [
+            [
+              "studies",
+              {
+                "type": "dict",
+                "items": [
+                  [
+                    "Fneq_independent",
+                    {
+                      "type": "dict",
+                      "items": [
+                        [
+                          "baseline",
+                          {
+                            "type": "dict",
+                            "items": [
+                              [
+                                "q",
+                                20
+                              ],
+                              [
+                                "sigma",
+                                1.0
+                              ],
+                              [
+                                "G2",
+                                100.0
+                              ],
+                              [
+                                "f",
+                                0.1
+                              ],
+                              [
+                                "ftilde",
+                                0.2
+                              ],
+                              [
+                                "eta",
+                                0.2
+                              ],
+                              [
+                                "F",
+                                0.4
+                              ],
+                              [
+                                "FTest",
+                                0.4
+                              ],
+                              [
+                                "Fneq",
+                                0.2
+                              ],
+                              [
+                                "m",
+                                0.05
+                              ],
+                              [
+                                "mneq",
+                                0.1
+                              ],
+                              [
+                                "mneqtilde",
+                                0.1
+                              ],
+                              [
+                                "Cneq",
+                                null
+                              ],
+                              [
+                                "rhoneq",
+                                0.25
+                              ]
+                            ]
+                          }
+                        ],
+                        [
+                          "study",
+                          {
+                            "type": "dict",
+                            "items": [
+                              [
+                                "parameter",
+                                "Fneq"
+                              ],
+                              [
+                                "values",
+                                {
+                                  "type": "list",
+                                  "items": [
+                                    0.1,
+                                    0.2,
+                                    0.3,
+                                    0.39
+                                  ]
+                                }
+                              ],
+                              [
+                                "regime",
+                                "general"
+                              ],
+                              [
+                                "path",
+                                "differing_signals"
+                              ],
+                              [
+                                "fixed_other",
+                                0.2
+                              ],
+                              [
+                                "symbol",
+                                "F_{\\neq}"
+                              ],
+                              [
+                                "title",
+                                "Training differing-site signal $F_{\\neq}$"
+                              ]
+                            ]
+                          }
+                        ],
+                        [
+                          "regime",
+                          {
+                            "type": "dict",
+                            "items": [
+                              [
+                                "fixed",
+                                {
+                                  "type": "dict",
+                                  "items": []
+                                }
+                              ],
+                              [
+                                "ties",
+                                {
+                                  "type": "dict",
+                                  "items": []
+                                }
+                              ],
+                              [
+                                "caption",
+                                "General case: all other independent parameters at the shared baseline"
+                              ]
+                            ]
+                          }
+                        ],
+                        [
+                          "mean_convention",
+                          "normalized"
+                        ],
+                        [
+                          "reference_L",
+                          100
+                        ],
+                        [
+                          "r_values",
+                          {
+                            "type": "array",
+                            "key": "array_0080",
+                            "shape": [
+                              101
+                            ],
+                            "dtype": "float64"
+                          }
+                        ],
+                        [
+                          "search",
+                          {
+                            "type": "dict",
+                            "items": [
+                              [
+                                "method",
+                                "nonnegative"
+                              ],
+                              [
+                                "lambda_max",
+                                1000.0
+                              ],
+                              [
+                                "n_grid",
+                                161
+                              ]
+                            ]
+                          }
+                        ]
+                      ]
+                    }
+                  ],
+                  [
+                    "Fneqtilde_independent",
+                    {
+                      "type": "dict",
+                      "items": [
+                        [
+                          "baseline",
+                          {
+                            "type": "dict",
+                            "items": [
+                              [
+                                "q",
+                                20
+                              ],
+                              [
+                                "sigma",
+                                1.0
+                              ],
+                              [
+                                "G2",
+                                100.0
+                              ],
+                              [
+                                "f",
+                                0.1
+                              ],
+                              [
+                                "ftilde",
+                                0.2
+                              ],
+                              [
+                                "eta",
+                                0.2
+                              ],
+                              [
+                                "F",
+                                0.4
+                              ],
+                              [
+                                "FTest",
+                                0.4
+                              ],
+                              [
+                                "Fneq",
+                                0.2
+                              ],
+                              [
+                                "m",
+                                0.05
+                              ],
+                              [
+                                "mneq",
+                                0.1
+                              ],
+                              [
+                                "mneqtilde",
+                                0.1
+                              ],
+                              [
+                                "Cneq",
+                                null
+                              ],
+                              [
+                                "rhoneq",
+                                0.25
+                              ]
+                            ]
+                          }
+                        ],
+                        [
+                          "study",
+                          {
+                            "type": "dict",
+                            "items": [
+                              [
+                                "parameter",
+                                "Fneqtilde"
+                              ],
+                              [
+                                "values",
+                                {
+                                  "type": "list",
+                                  "items": [
+                                    0.1,
+                                    0.2,
+                                    0.3,
+                                    0.39
+                                  ]
+                                }
+                              ],
+                              [
+                                "regime",
+                                "general"
+                              ],
+                              [
+                                "path",
+                                "differing_signals"
+                              ],
+                              [
+                                "fixed_other",
+                                0.2
+                              ],
+                              [
+                                "symbol",
+                                "\\tilde F_{\\neq}"
+                              ],
+                              [
+                                "title",
+                                "Test differing-site signal $\\tilde F_{\\neq}$"
+                              ]
+                            ]
+                          }
+                        ],
+                        [
+                          "regime",
+                          {
+                            "type": "dict",
+                            "items": [
+                              [
+                                "fixed",
+                                {
+                                  "type": "dict",
+                                  "items": []
+                                }
+                              ],
+                              [
+                                "ties",
+                                {
+                                  "type": "dict",
+                                  "items": []
+                                }
+                              ],
+                              [
+                                "caption",
+                                "General case: all other independent parameters at the shared baseline"
+                              ]
+                            ]
+                          }
+                        ],
+                        [
+                          "mean_convention",
+                          "normalized"
+                        ],
+                        [
+                          "reference_L",
+                          100
+                        ],
+                        [
+                          "r_values",
+                          {
+                            "type": "array",
+                            "key": "array_0081",
+                            "shape": [
+                              101
+                            ],
+                            "dtype": "float64"
+                          }
+                        ],
+                        [
+                          "search",
+                          {
+                            "type": "dict",
+                            "items": [
+                              [
+                                "method",
+                                "nonnegative"
+                              ],
+                              [
+                                "lambda_max",
+                                1000.0
+                              ],
+                              [
+                                "n_grid",
+                                161
+                              ]
+                            ]
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              "transition_options",
+              {
+                "type": "dict",
+                "items": [
+                  [
+                    "n_probe",
+                    65
+                  ],
+                  [
+                    "barrier_rtol",
+                    1e-08
+                  ]
+                ]
+              }
+            ],
+            [
+              "study_transition_options",
+              {
+                "type": "dict",
+                "items": [
+                  [
+                    "Fneq_independent",
+                    {
+                      "type": "dict",
+                      "items": [
+                        [
+                          "n_probe",
+                          65
+                        ],
+                        [
+                          "barrier_rtol",
+                          1e-08
+                        ]
+                      ]
+                    }
+                  ],
+                  [
+                    "Fneqtilde_independent",
+                    {
+                      "type": "dict",
+                      "items": [
+                        [
+                          "n_probe",
+                          65
+                        ],
+                        [
+                          "barrier_rtol",
+                          1e-08
+                        ]
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    ]
+  },
+  "utility_sha256": {
+    "__init__.py": "f94b17dd0d2e756f0c5ac476c4818c010e15bf4efd8de47d92c661e7311fefc2",
+    "appendix_evidence.py": "cfbe1d52448641a94193cd35b59682cdf91d5c72f5507ad17a03d77315818939",
+    "breadth_benchmark.py": "6a12acb4ba6ea9b4ead7237728c337a2bf45f7cf9e17da4f44f3ddcaa515eacb",
+    "breadth_optimum.py": "b2450c754aebf70974c5efdc3539bbbf999fd9778a2229476dd5b2d043dbbe5f",
+    "breadth_transitions.py": "dbd7a7b9ae959cdc4c29870eeb5fa5721819d3f1b27c14049791ad7023882b2a",
+    "compensation_transitions.py": "68cef4a9cef81bd2380ea0639b88bb87010926940348c4272f5dd8a563909649",
+    "config.py": "2551a60b2963ce551928b043aaab556db487c1f4d387631fd7e7f28e5c81b15d",
+    "differing_signal_sweeps.py": "cda44be41295b5b79d2fccefeaaadf4158fb2677fa474d86ebd612a802bb4f31",
+    "exploration.py": "59aed18e606094ae673cee8b1fc79ef34a6d3849c79664b727e88d545ab94521",
+    "incremental_simulation.py": "c118f5696c6d558892be49d356999c5bf61765626df39e0748870f2f7cc57874",
+    "infinity_diagnostics.py": "82698f4bc8293de2215afb49fb852257c54c37635a39cfaab2402202701771b1",
+    "jobs.py": "4bd3b4e2f03dd4c3d40d9b94dc289c00deb17518144a95d6f1a630055a81297a",
+    "landscape_slices.py": "aa19eb6fccbb7ea7bf5894bc83f661a057fbc788fed58f0bf6004b15ede0204c",
+    "optimization.py": "26f1b2314b9bd781d23df44a2284a27f34f8aff6e6294ae9e03690c4c11910d1",
+    "paper_figures.py": "1ac355fb318750e3fbbfee4143181fa5b48fbafaea05ae1d0f398524ece4558c",
+    "parameter_axis.py": "3db54ed073df3895055fad74c3d20616d4e01de6dee7db1c4a672d2230ab36bb",
+    "parameter_planes.py": "d7337d393de09daf059e8df19483ec1df4903d763534f1acbf12759464ad1d1b",
+    "reference_compensation.py": "1225262d4bba467bf9050dbfe103c585aae438464784f967c1cf12c96443d94c",
+    "reference_compensation_grid.py": "6cc2da690121fd5dce3935941eb29284c70f54146f69ceb2c0909901eb82cff0",
+    "result_cache.py": "5d6cd7ec36fd8a4ada299ae9d52bad70d33bf53af7593124dc5471137121e3fe",
+    "ridge_diagnostics.py": "c44898c86f4e1c09e454d349e2d56aac8ef6b2a50a9f2936134238e8f300f329",
+    "simulation.py": "797a34c71e9abb5a310c5ed0417a8b90973f86fe9564558cc368cd59dbaf86fa",
+    "stieltjes.py": "aeaae6b9c8503f420b092299847357cbd02216ee64e7320e36e698ff63140d91",
+    "sweep_transitions.py": "0242affd4418aa39bfab9ed36ac79a5a944edfb79503b347fce95939fb85c433",
+    "theory.py": "f675d390bcf5f05dc32988c3eb664d0734d9a3062995ba0979e807ceb684e9e4",
+    "transition_diagnostics.py": "0076930d735c22029bc9f5c91492fa40f52125c7523f29cc6a0629fef1a6bbc3",
+    "zero_ridge_evidence.py": "408489f0d6e2880502812496a035ec363c350f9a3f71ffeb406709fe04a122bf"
+  },
+  "npz_sha256": "2516d483e1d7f68f4189b0312ad3b7b82fc2c4be4948ffddb102bfc792f7583a"
+}
