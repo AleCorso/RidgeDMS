@@ -1,8 +1,8 @@
 # Theoretical risk and synthetic-data figures
 
 This folder contains seven self-contained notebooks for the theoretical and
-synthetic-data figures. Numerical results are included in `data/`: running the
-notebooks with their default `RECOMPUTE=False` redraws and saves the figures
+synthetic-data figures, and the two notebooks risk_curves.ipynb and risk_curves_fit.ipynb for the experimental performance curves. 
+Numerical results are included in `data/`: running the notebooks with their default `RECOMPUTE=False` redraws and saves the figures
 without repeating the expensive risk searches or simulations.
 
 ## Setup
@@ -32,7 +32,8 @@ PDFs are saved in `output/`.
 | [05_zero_ridge](notebooks/05_zero_ridge.ipynb) | optimal ridge and the slope at zero | `appendix_zero_ridge.pdf` |
 | [06_infinite_ridge](notebooks/06_infinite_ridge.ipynb) | finite search caps and infinity certificates | `appendix_infinite_ridge.pdf` |
 | [07_finite_size](notebooks/07_finite_size.ipynb) | in-distribution convergence | `appendix_finite_size.pdf` |
-
+| [09_risk_curves_fit](notebooks/09_risk_curves_fit.ipynb) | fit experimental risk curves | 'ACE2_Wuhan_risk_landscape_fit.pdf' |
+ 
 Change `CASE` or `GROUP` to reproduce another figure from the same notebook.
 Plot settings can be changed without recalculating numerical results. To change
 scientific inputs, set `RECOMPUTE=True` and run the numerical stages first.
