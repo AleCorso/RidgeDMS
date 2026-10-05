@@ -1,4 +1,4 @@
-# Theoretical risk and synthetic-data figures
+# Ridge Regression on deep mutational scans: theory, synthetic experiments and experimental performance curves 
 
 This folder contains seven self-contained notebooks for the theoretical and
 synthetic-data figures, and the two notebooks risk_curves.ipynb and risk_curves_fit.ipynb for the experimental performance curves. 
